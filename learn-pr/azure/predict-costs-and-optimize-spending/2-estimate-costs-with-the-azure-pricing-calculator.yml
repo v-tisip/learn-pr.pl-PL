@@ -1,0 +1,34 @@
+### YamlMime:ModuleUnit
+uid: learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator
+title: Szacowanie kosztów przy użyciu kalkulatora cen platformy Azure
+metadata:
+  title: Szacowanie kosztów przy użyciu kalkulatora cen platformy Azure
+  description: W tym rozdziale omówimy sposób szacowania kosztów za pomocą kalkulatora cen platformy Azure
+  ms.openlocfilehash: 8667c62411c9155d1bb116dd36da0014f038e15b
+  ms.sourcegitcommit: d40bff88f60d5ddb3d875f788cafdd0c40069f23
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "42614519"
+durationInMinutes: 15
+content: >
+  [!include[](includes/2-estimate-costs-with-the-azure-pricing-calculator.md)]
+quiz:
+  title: Szacowanie kosztów przy użyciu kalkulatora cen platformy Azure
+  questions:
+  - content: Na której karcie kalkulatora cen platformy Azure będzie można sformułować szacowanie?
+    choices:
+    - content: Szacowanie
+      isCorrect: false
+      incorrectExplanation: Ta karta zawiera wszystkie zapisane wcześniej oszacowania.
+    - content: Produkty
+      isCorrect: true
+      correctExplanation: Ta karta zawiera listę wszystkich usług platformy Azure. Umożliwia również dodawanie i usuwanie usług w celu sformułowania szacowania.
+  - content: Szacowanie można udostępnić za pośrednictwem arkusza kalkulacyjnego programu Excel lub adresu URL.
+    choices:
+    - content: "True"
+      isCorrect: true
+      correctExplanation: Kliknięcie pozycji <b>Eksportuj</b> w dolnej części szacowania spowoduje wyeksportowanie arkusza kalkulacyjnego programu Excel, który można udostępnić. Można również kliknąć pozycję <b>Udostępnij</b>, aby uzyskać link z adresem URL do udostępnienia zespołowi.
+    - content: "False"
+      isCorrect: false
+      incorrectExplanation: Kliknięcie pozycji <b>Eksportuj</b> w dolnej części szacowania spowoduje wyeksportowanie arkusza kalkulacyjnego programu Excel, który można udostępnić. Można również kliknąć pozycję <b>Udostępnij</b>, aby uzyskać link z adresem URL do udostępnienia zespołowi.

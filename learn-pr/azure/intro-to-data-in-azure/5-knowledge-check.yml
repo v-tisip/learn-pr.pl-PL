@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-data-in-azure.5-knowledge-check
+metadata:
+  title: Test wiedzy
+  description: Test wiedzy.
+  displayType: one-column
+  ms.openlocfilehash: 8e63c9e7886d767824571f78eda178b9bdfd65f3
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40444228"
+title: Test wiedzy
+durationInMinutes: 11
+content: Test wiedzy
+quiz:
+  title: Test wiedzy
+  questions:
+  - content: Twój portal szkoleń online musi przechowywać rekord adresów fizycznych poszczególnych użytkowników oraz ich adresy e-mail. Które funkcje platformy Azure pozwolą na skuteczne zarządzanie tymi informacjami?
+    choices:
+    - content: Archiwum platformy Azure
+      isCorrect: false
+      incorrectExplanation: Archiwum platformy Azure to idealne rozwiązanie do przechowywania starszych danych. Pozwala ono na pobieranie danych zgodnie z wymaganiami inspekcji lub innych nieregularnie wykonywanych czynności.
+    - content: Azure SQL
+      isCorrect: true
+      correctExplanation: Prawidłowa odpowiedź. Usługa Azure SQL pomaga przechowywać dane relacyjne i szybko je pobiera dzięki użyciu zapytań zaawansowanych.
+    - content: Azure Files
+      isCorrect: false
+      incorrectExplanation: Usługa Azure Files jest używana w przypadku udziałów plików w chmurze. Można ją instalować współbieżnie za pośrednictwem chmurowych lub lokalnych wdrożeń systemów Windows, Linux i macOS.
+  - content: Rozmiar plików symulacji używanych w portalach szkoleń dotyczących sprzedaży może wzrosnąć do znacznie większego rozmiaru pliku. Jak platforma Azure będzie obsługiwać te pliki?
+    choices:
+    - content: Usługa Azure Blob Storage może obsługiwać pliki o maksymalnym rozmiarze 8 TB
+      isCorrect: true
+      correctExplanation: Prawidłowa odpowiedź. Usługa Azure Blob Storage umożliwia przechowywanie i przesyłanie strumieniowe dużych plików wideo lub audio bezpośrednio do przeglądarki z dowolnego miejsca na świecie.
+    - content: Usługa Azure Files może obsługiwać, przechowywać i przesyłać strumieniowo duże pliki
+      isCorrect: false
+      incorrectExplanation: Usługa Azure Files jest używana w przypadku udziałów plików w chmurze. Można ją instalować współbieżnie za pośrednictwem chmurowych lub lokalnych wdrożeń systemów Windows, Linux i macOS.
+    - content: Usługa Azure Files nie obsługuje przechowywania ani przesyłania strumieniowego dużych plików
+      isCorrect: false
+      incorrectExplanation: Platforma Azure umożliwia przechowywanie i przesyłanie strumieniowe dużych plików wideo lub audio bezpośrednio do przeglądarki z dowolnego miejsca na świecie.
+  - content: Jak platforma Azure obsługuje trwałość i niezawodność danych?
+    choices:
+    - content: Za pomocą możliwości replikacji platformy Azure.
+      isCorrect: true
+      correctExplanation: Prawidłowa odpowiedź. Platforma Azure oferuje funkcje replikacji, aby chronić dane przed klęskami żywiołowymi, i obsługuje szyfrowanie, aby chronić dane przed złośliwymi atakami.
+    - content: Potrzebujesz dodatkowej pomocy technicznej premium, aby szyfrować i odszyfrowywać dane, a niezawodność jest obsługiwana przy użyciu funkcji tworzenia kopii zapasowych innych firm
+      isCorrect: false
+      incorrectExplanation: Nie potrzebujesz dodatkowej pomocy technicznej; platforma Azure oferuje możliwości ochrony danych przed wszystkimi nieprzewidzianymi czynnikami ryzyka i zagrożeniami.
+    - content: Platforma Azure nie ma wbudowanych funkcji nadmiarowości ani szyfrowania.
+      isCorrect: false
+      incorrectExplanation: Platforma Azure ma wbudowane możliwości ochrony danych przed ryzykiem i zagrożeniami.

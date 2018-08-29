@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-compute.4-knowledge-check
+title: Test wiedzy
+metadata:
+  title: Test wiedzy
+  description: Test wiedzy dotyczący modułu „Wprowadzenie do usług Azure Compute”.
+  ms.openlocfilehash: d7c3f166bab42dfd3ab34e11ce5f399e0375e6f7
+  ms.sourcegitcommit: 0e0cc41b7669e7149541f34f3f24ba0e864ed07d
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/23/2018
+  ms.locfileid: "42702534"
+durationInMinutes: 7
+content: >
+  [!include[](includes/4-knowledge-check.md)]
+quiz:
+  title: Wprowadzenie do usług Azure Compute — test wiedzy
+  questions:
+  - content: Załóżmy, że Twój zespół związany z astronomią jest niewielki oraz że chociaż członkowie zespołu są bardzo dobrymi astronomami i programistami, to jednak mają jedynie podstawowe pojęcie o kwestiach związanych z administracją serwera i administracją internetową. Którą z poniższych opcji należy wybrać?
+    choices:
+    - content: Azure Kubernetes Service (AKS)
+      isCorrect: false
+      incorrectExplanation: Usługa Kubernetes wymaga zaawansowanej wiedzy na temat aranżacji kontenerów.
+    - content: Service Fabric
+      isCorrect: false
+      incorrectExplanation: Praca astronomów nie musi być dystrybuowana powszechnie ani globalnie.
+    - content: App Service
+      isCorrect: true
+      correctExplanation: Ponieważ usługa jest w pełni zarządzana i umożliwia skalowanie aplikacji, zespół może skupić się na pisaniu specjalistycznego oprogramowania.
+  - content: Załóżmy, że Twój zespół astronomów musi wykonać pewne obliczenia astronomiczne. Proces wykonywania obliczeń może potrwać kilka godzin, a nawet dni. Równoległe wykonywanie obliczeń nie wydaje się pomagać. Którą z poniższych opcji należy wybrać?
+    choices:
+    - content: Cloud Services
+      isCorrect: false
+      incorrectExplanation: Nie wszystkie obliczenia astronomiczne mogą być uruchamiane równolegle, więc wdrożenie dodatkowych maszyn wirtualnych może zapewnić jedynie nieznaczny wzrost wydajności.
+    - content: Azure Batch
+      isCorrect: true
+      correctExplanation: Niektóre obliczenia astronomiczne wymagają możliwości oferowanych przez superkomputer.
+    - content: Container Instances
+      isCorrect: false
+      incorrectExplanation: Możliwe, że nie wszystkie obliczenia astronomiczne mogą być uruchamiane równolegle, więc wdrożenie dodatkowych kontenerów może zapewnić jedynie nieznaczny wzrost wydajności.

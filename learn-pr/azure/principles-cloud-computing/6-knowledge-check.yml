@@ -1,0 +1,56 @@
+### YamlMime:ModuleUnit
+uid: principles-cloud-computing.6-knowledge-check
+metadata:
+  title: Sprawdź swoją wiedzę
+  description: Sprawdź swoją wiedzę
+  displayType: one-column
+  ms.openlocfilehash: d578a28cd23b3be60038cabb5fb899c0344219ad
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40443476"
+title: Sprawdź swoją wiedzę
+durationInMinutes: 10
+content: Zawartość jest wymagana
+quiz:
+  title: Test wiedzy
+  questions:
+  - content: 'Prawda czy fałsz: gdy korzystasz z usług dostawcy chmury publicznej, takiego jak Azure, musisz z góry ponieść całkowity koszt sprzętu fizycznego.'
+    choices:
+    - content: "True"
+      incorrectExplanation: Platforma Azure obsługuje model cenowy z płatnością zgodnie z rzeczywistym użyciem. To oznacza, że wynajmujesz sprzęt i płacisz tylko za wykorzystane zasoby.
+      isCorrect: false
+    - content: "False"
+      correctExplanation: Platforma Azure obsługuje model cenowy z płatnością zgodnie z rzeczywistym użyciem. To oznacza, że wynajmujesz sprzęt i płacisz tylko za wykorzystane zasoby.
+      isCorrect: true
+  - content: Załóżmy, że ruch do Twojej witryny internetowej znacznie się zwiększył przez noc. Gdy korzystasz z usług dostawcy chmury publicznej, takiego jak Azure, mogła nie wystąpić żadna przerwa w działaniu witryny, ponieważ witryna automatycznie skalowała swoje zasoby.
+    choices:
+    - content: "True"
+      correctExplanation: Przetwarzanie w chmurze jest uznawane za elastyczne. To oznacza, że można automatycznie przydzielać zasoby i cofać ich przydział w zależności od potrzeb.
+      isCorrect: true
+    - content: "False"
+      incorrectExplanation: Przetwarzanie w chmurze jest uznawane za elastyczne. To oznacza, że można automatycznie przydzielać zasoby i cofać ich przydział w zależności od potrzeb.
+      isCorrect: false
+  - content: Załóżmy, że przenosisz się do chmury i chcesz uzyskać wysoką skalowalność oraz korzystać z wypożyczonego sprzętu, a bezpieczeństwo nie jest bardzo istotne. Którego modelu wdrożenia chmury najlepiej użyć?
+    choices:
+    - content: Chmura publiczna
+      correctExplanation: Chmura publiczna należy do dostawcy chmury innej firmy i jest przez niego obsługiwana, co zapewnia korzyści w postaci skalowalności i wynajętego sprzętu. Ponieważ sprzęt nie należy do Ciebie, nie masz kontroli nad tym, kto ma do niego fizyczny dostęp.
+      isCorrect: true
+    - content: Chmura prywatna
+      incorrectExplanation: Głównym powodem, dla którego warto wybrać chmurę prywatną, jest bezpieczeństwo. W przypadku chmury prywatnej sprzęt zwykle należy do Ciebie i jest obsługiwany lokalnie.
+      isCorrect: false
+    - content: Chmura hybrydowa
+      incorrectExplanation: Chmura hybrydowa to połączenie chmury publicznej i prywatnej. Ponieważ bezpieczeństwo nie jest dla Ciebie istotne, nie trzeba przenosić niczego do chmury prywatnej.
+      isCorrect: false
+  - content: Załóżmy, że tworzysz aplikację i chcesz ją jak najszybciej dostarczyć do użytkowników. Nie chcesz martwić się o zarządzanie podstawowym sprzętem ani oprogramowaniem. Wolisz skupić się na tworzeniu, testowaniu i wdrażaniu. Który typ usługi w chmurze jest dla Ciebie najlepszy?
+    choices:
+    - content: Infrastruktura jako usługa
+      incorrectExplanation: W przypadku infrastruktury jako usługi odpowiedzialność za zarządzanie sprzętem i oprogramowaniem ciąży na Tobie. Obejmuje to również takie zadania, jak wykonywanie aktualizacji systemu na maszynach wirtualnych.
+      isCorrect: false
+    - content: Platforma jako usługa
+      correctExplanation: Celem platformy jako usługi jest pomoc w jak najszybszym utworzeniu aplikacji. Zadania zarządzania infrastrukturą IT są wykonywane za Ciebie, dzięki czemu możesz skupić się na pisaniu kodu.
+      isCorrect: true
+    - content: Oprogramowanie jako usługa
+      incorrectExplanation: W przypadku oprogramowania jako usługi istniejąca aplikacja jest używana za pośrednictwem przeglądarki internetowej lub aplikacji programowej.
+      isCorrect: false

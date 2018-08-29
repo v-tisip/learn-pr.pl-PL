@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-service-identity
+title: Uwierzytelnianie w magazynie za pomocą tożsamości usługi zarządzanej
+metadata:
+  title: Uwierzytelnianie w magazynie za pomocą tożsamości usługi zarządzanej
+  description: Uwierzytelnianie w magazynie za pomocą tożsamości usługi zarządzanej
+  ms.openlocfilehash: 1fc1fc3b0742748a11ab9527784d08abd5fc5c2c
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40445780"
+durationInMinutes: 2
+content: >
+  [!include[](includes/4-authentication-with-managed-service-identity.md)]
+quiz:
+  title: 'Test wiedzy: tożsamość usługi zarządzanej'
+  questions:
+  - content: Jak tożsamość usługi zarządzanej zmienia sposób, w jaki aplikacja uwierzytelnia się w usłudze Azure Key Vault?
+    choices:
+    - content: Aplikacja do uwierzytelniania używa certyfikatu zamiast wpisu tajnego.
+      isCorrect: false
+      incorrectExplanation: Aplikacje *mogą* używać wpisów tajnych lub certyfikatów w celu uzyskania tokenów uwierzytelniania z usługi Azure Active Directory, ale gdy korzysta się z tożsamości usługi zarządzanej, nie muszą tego robić.
+    - content: Każdy użytkownik aplikacji musi wprowadzić hasło.
+      isCorrect: false
+      incorrectExplanation: To *aplikacja* uwierzytelnia się w usłudze Key Vault, a nie poszczególni użytkownicy aplikacji. Korzystanie z tożsamości usługi zarządzanej nie ma wpływu na to, czy aplikacja wymaga uwierzytelniania od użytkowników.
+    - content: Aplikacja uzyskuje tokeny z usługi tokenów bazującej na tożsamościach usługi zarządzanej zamiast z usługi Azure Active Directory.
+      isCorrect: true
+      correctExplanation: Usługa tokenów tożsamości usługi zarządzanej uzyskuje tokeny z usługi Azure Active Directory w imieniu aplikacji i pozwala aplikacji na uwierzytelnianie za pomocą wpisu tajnego wstrzykniętego do jego zmiennych środowiskowych.
+    - content: Tożsamości usługi zarządzanej są zarządzane przez usługę Key Vault, a ich rozpoznawanie i uwierzytelnianie jest przeprowadzane automatycznie.
+      isCorrect: false
+      incorrectExplanation: Usługa Key Vault nie kontroluje tożsamości ani nie zarządza nimi. Tożsamości istnieją w usłudze Azure Active Directory.
+  - content: Które z tych stwierdzeń opisuje podstawową zaletę używania tożsamości usługi zarządzanej do uwierzytelniania aplikacji w usłudze Key Vault?
+    choices:
+    - content: Tożsamość usługi zarządzanej zwiększa wydajność aplikacji.
+      isCorrect: false
+      incorrectExplanation: Tożsamość usługi zarządzanej nie ma wpływu na wydajność aplikacji.
+    - content: Tożsamość usługi zarządzanej eliminuje potrzebę obsługi wpisów tajnych w konfiguracji.
+      isCorrect: true
+      correctExplanation: Aplikacja uwierzytelnia się w usłudze tokenów tożsamości usługi zarządzanej za pomocą wpisu tajnego wstrzykniętego do jej zmiennych środowiskowych w czasie wykonywania, co eliminuje konieczność przechowywania wpisów tajnych w konfiguracji.
+    - content: Tożsamościom usługi zarządzanej są automatycznie przyznawane uprawnienia usługi Key Vault.
+      isCorrect: false
+      incorrectExplanation: Wszystkie tożsamości, w tym tożsamości usługi zarządzanej, muszą mieć jawnie przyznane uprawnienia w magazynie.
+    - content: Tożsamość usługi zarządzanej ułatwia wybór haseł dla usług zdalnych.
+      isCorrect: false
+      incorrectExplanation: Tożsamość usługi zarządzanej nie ma wpływu na Twoje wpisy tajne i przepływy pracy uwierzytelniania dla usług zdalnych. Tożsamość usługi zarządzanej ma wpływ tylko na sposób uwierzytelniania się aplikacji w usłudze Key Vault.

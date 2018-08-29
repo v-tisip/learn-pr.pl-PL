@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn.align-requirements-in-azure.3-public-private-hybrid-quiz
+title: Test wiedzy — znajomość rozwiązań platformy Azure dla chmury publicznej, prywatnej i hybrydowej
+metadata:
+  title: Test wiedzy — znajomość rozwiązań platformy Azure dla chmury publicznej, prywatnej i hybrydowej
+  description: Test wiedzy — znajomość rozwiązań platformy Azure dla chmury publicznej, prywatnej i hybrydowej
+  ms.openlocfilehash: 2ae34e628e7e20c933856b09a9a813e40788adbc
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40446302"
+durationInMinutes: 10
+content: Test wiedzy — znajomość rozwiązań platformy Azure dla chmury publicznej, prywatnej i hybrydowej
+quiz:
+  title: Rozwiązania platformy Azure dla chmury publicznej, prywatnej i hybrydowej
+  questions:
+  - content: Jaki jest najlepszy model wdrożenia w chmurze w przypadku następującego scenariusza? Na potrzeby krótkotrwałego projektu jest potrzebna baza danych programu SQL Server. Dział IT nie ma dostępnego sprzętu, który spełniałby wymagania dotyczące wydajności, ani zasobów, aby go wdrożyć. Projekt rozpoczyna się w przyszłym tygodniu. Po zakończeniu projektu baza danych nie będzie już potrzebna.
+    choices:
+    - content: Chmura publiczna
+      correctExplanation: Ze względu na pilną potrzebę i cykl życia bazy danych SQL chmura publiczna jest najlepszym rozwiązaniem.
+      isCorrect: true
+    - content: Chmura prywatna
+      incorrectExplanation: Dział IT nie ma zasobów do wdrożenia programu SQL Server.
+      isCorrect: false
+    - content: Chmura hybrydowa
+      incorrectExplanation: Zastosowanie chmury hybrydowej jest możliwe. Nie jest jednak wymagane połączenie między chmurami prywatną i publiczną.
+      isCorrect: false
+  - content: Jaki jest najlepszy model wdrożenia w chmurze w przypadku następującego scenariusza? Tworzysz kilka maszyn wirtualnych w chmurze. Maszyny wirtualne są ze sobą połączone przy użyciu sieci wirtualnej. Maszyny wirtualne mają dostęp do plików zdjęć rentgenowskich przechowywanych w magazynie w chmurze. Jedna z maszyn wirtualnych to serwer internetowy dostępny w Internecie umożliwiający klientom dostęp do rekordów. Sieć VPN łączy rozwiązanie z lokalnym centrum danych, aby informacje o klientach były wyświetlane wraz z plikami zdjęć.
+    choices:
+    - content: Chmura publiczna
+      incorrectExplanation: Ze względu na połączenie z lokalnym centrum danych nie jest to wdrożenie w chmurze publicznej.
+      isCorrect: false
+    - content: Chmura prywatna
+      incorrectExplanation: Ponieważ maszyny wirtualne i sieć znajdują się w chmurze publicznej, nie jest to wdrożenie w chmurze prywatnej.
+      isCorrect: false
+    - content: Chmura hybrydowa
+      correctExplanation: W tym scenariuszu jest używana chmura prywatna połączona z chmurą publiczną. Dlatego jest to wdrożenie w chmurze hybrydowej.
+      isCorrect: true
+  - content: Jaki jest model wdrożenia w chmurze w przypadku następującego scenariusza? W Twojej organizacji znajdują się dwa centra danych. Jedno centrum danych zawiera bazę danych, która musi znajdować się w jednym z centrów danych ze względu na wymagania prawne. Chcesz uzyskać dostęp do bazy danych z drugiego centrum danych. Tworzysz sieć VPN za pomocą dostawcy chmury w celu połączenia obu centrów danych.
+    choices:
+    - content: Chmura publiczna
+      incorrectExplanation: Ze względu na dwa prywatne centra danych nie jest to wdrożenie w chmurze publicznej.
+      isCorrect: false
+    - content: Chmura prywatna
+      correctExplanation: Sieć VPN to zasób chmury publicznej. Jednak ponieważ sieć VPN jest prywatnym połączeniem między dwoma prywatnymi centrami danych, jest to wdrożenie w chmurze prywatnej.
+      isCorrect: true
+    - content: Chmura hybrydowa
+      correctExplanation: Sieć VPN to zasób chmury publicznej, a centra danych są prywatne. Jednak ponieważ sieć VPN łączy tylko dwa prywatne centra danych (nie łączy się z chmurą publiczną), nie jest to wdrożenie w chmurze hybrydowej.
+      isCorrect: false

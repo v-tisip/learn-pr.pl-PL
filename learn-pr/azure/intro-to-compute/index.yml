@@ -1,0 +1,30 @@
+### YamlMime:Module
+uid: learn.intro-to-compute
+title: Wprowadzenie do usługi Azure Compute
+summary: Usługa Azure Compute zapewnia zasoby obliczeniowe, które mogą być elastycznie stosowane przez użytkownika w celu przetwarzania dużych ilości danych na potrzeby zadań takich, jak modelowanie działania leków na poziomie molekularnym, wyszukiwanie danych marketingowych, renderowanie wideo wysokiej jakości i analizowanie danych astronomicznych zebranych przez teleskopy. Celem tego modułu jest zapewnienie ogólnego opisu usługi Azure Compute i jej opcji, a także sugestii dotyczących sposobu ich wykorzystania do rozwiązywania problemów uczniów w ich codziennej pracy.
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- developer
+- solutions-architect
+- administrator
+products:
+- Azure
+metadata:
+  title: Wprowadzenie do usługi Azure Compute
+  description: Usługa Azure Compute zapewnia zasoby obliczeniowe, które mogą być elastycznie stosowane przez użytkownika w celu przetwarzania dużych ilości danych na potrzeby zadań takich, jak modelowanie działania leków na poziomie molekularnym, wyszukiwanie danych marketingowych, renderowanie wideo wysokiej jakości i analizowanie danych astronomicznych zebranych przez teleskopy. Celem tego modułu jest zapewnienie ogólnego opisu usługi Azure Compute i jej opcji, a także sugestii dotyczących sposobu ich wykorzystania do rozwiązywania problemów uczniów w ich codziennej pracy.
+  ms.openlocfilehash: fbde0360e0fec828ef2232411659f796830c1c28
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40443054"
+abstract: 'Po zakończeniu tego modułu uczniowie będą umieli wykonywać następujące czynności: — Identyfikowanie opcji w usłudze Azure Compute. — Wybieranie jednej lub większej liczby opcji obliczeniowych odpowiednich do rozwiązywania problemów biznesowych.'
+units:
+- learn.intro-to-compute.1-introduction
+- learn.intro-to-compute.2-essential-azure-compute-concepts
+- learn.intro-to-compute.3-select-and-manage-compute-options
+- learn.intro-to-compute.4-knowledge-check
+- learn.intro-to-compute.5-summary
+achievement: learn.intro-to-compute.badge

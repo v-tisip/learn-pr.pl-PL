@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.8-publish-to-azure
+title: Publikowanie funkcji na platformie Azure
+metadata:
+  title: Publikowanie funkcji na platformie Azure
+  description: Publikowanie funkcji na platformie Azure, konfigurowanie jej i wywoływanie z poziomu aplikacji mobilnej
+  ms.openlocfilehash: 585f9839f9d02fffa35aea949c36ee1db17ef94f
+  ms.sourcegitcommit: d40bff88f60d5ddb3d875f788cafdd0c40069f23
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "42615122"
+durationInMinutes: 12
+content: '[!include[](includes/8-publish-to-azure.md)]'

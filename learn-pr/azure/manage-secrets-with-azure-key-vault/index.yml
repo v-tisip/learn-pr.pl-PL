@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn.manage-secrets-with-azure-key-vault
+title: Zarządzanie wpisami tajnymi w aplikacjach internetowych za pomocą usługi Azure Key Vault
+summary: Aby prawidłowo działać, Twoja aplikacja potrzebuje haseł do usług, parametrów połączenia i innych tajnych wartości konfiguracji. Przechowywanie i obsługa wartości wpisów tajnych jest ryzykowne, a każde ich użycie to możliwość wycieku. Usługa Azure Key Vault w połączeniu z funkcją tożsamości usługi zarządzanej usługi Azure App Service umożliwia aplikacji internetowej Azure łatwy i bezpieczny dostęp do tajnych wartości konfiguracji bez konieczności przechowywania jakichkolwiek wpisów tajnych w kontroli źródła czy konfiguracji.
+cardDescription: Tajne wartości konfiguracji możesz bezpiecznie przechowywać w usłudze Azure Key Vault i uzyskiwać do nich bezpieczny dostęp z poziomu aplikacji internetowej Azure przy użyciu tożsamości usługi zarządzanej.
+iconUrl: /learn/modules/manage-secrets-with-azure-key-vault/achievement/manage-secrets-with-azure-key-vault.svg
+achievement: learn.manage-secrets-with-azure-key-vault.badge
+levels:
+- beginner
+roles:
+- developer
+products:
+- Azure
+metadata:
+  title: Zarządzanie wpisami tajnymi w aplikacjach internetowych za pomocą usługi Azure Key Vault
+  description: W tym module dowiesz się, jak utworzyć magazyn usługi Key Vault i zapisać w nim wpis tajny. Zobaczysz, jak skonfigurować aplikację internetową, aby używała tożsamości usługi zarządzanej w celu uzyskiwania bezpiecznego dostępu do magazynu bez żadnej konfiguracji, a na koniec zaimplementujesz aplikację internetową ASP.NET Core, która pobiera wpisy tajne z magazynu.
+  ms.openlocfilehash: ba109c56ec8d43e40ac534c1b28317542dd5e938
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40445995"
+abstract: >
+  * Utwórz magazyn usługi Azure Key Vault i zapisz w nim tajne wartości konfiguracji.
+
+  * Włącz bezpieczny dostęp do magazynu z poziomu aplikacji internetowej Azure App Service za pomocą tożsamości usługi zarządzanej.
+
+  * Zaimplementuj aplikację internetową ASP.NET Core, która pobiera wpisy tajne z magazynu.
+units:
+- learn.manage-secrets-with-azure-key-vault.1-introduction
+- learn.manage-secrets-with-azure-key-vault.2-what-is-key-vault
+- learn.manage-secrets-with-azure-key-vault.3-creating-vaults-storing-secrets
+- learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-service-identity
+- learn.manage-secrets-with-azure-key-vault.5-access-secrets-from-web-app
+- learn.manage-secrets-with-azure-key-vault.6-configure-deploy-run-azure
+- learn.manage-secrets-with-azure-key-vault.7-summary

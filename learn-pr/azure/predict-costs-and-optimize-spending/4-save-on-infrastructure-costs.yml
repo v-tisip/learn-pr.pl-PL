@@ -1,0 +1,43 @@
+### YamlMime:ModuleUnit
+uid: learn.predict-costs-and-optimize-spending.4-save-on-infrastructure-costs
+title: Oszczędzaj na kosztach infrastruktury
+metadata:
+  title: Oszczędzaj na kosztach infrastruktury
+  description: W tej sekcji omówimy sposób oszczędzania na kosztach infrastruktury
+  ms.openlocfilehash: ea6ad618f98c79c33bf6c0c04b2cd71fdb00fa21
+  ms.sourcegitcommit: d40bff88f60d5ddb3d875f788cafdd0c40069f23
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "42614825"
+durationInMinutes: 10
+content: >
+  [!include[](includes/4-save-on-infrastructure-costs.md)]
+quiz:
+  title: Oszczędzaj na kosztach infrastruktury
+  questions:
+  - content: Które z następujących to <b>nie</b> jest rozwiązanie oszczędnościowe?
+    choices:
+    - content: Cofnięcie przydziału maszyn wirtualnych poza godzinami pracy.
+      incorrectExplanation: Usługa Azure Reserved Virtual Machine Instances, cofnięcie przydziału maszyn wirtualnych poza godzinami pracy, ustawienie prawidłowego rozmiaru dla nie w pełni wykorzystanych maszyn wirtualnych, usunięcie nieużywanych maszyn wirtualnych i migracja do usług PaaS lub SaaS to wszystko przykłady rozwiązań redukujących koszty.
+      isCorrect: false
+    - content: Użycie usługi Azure Reserved Virtual Machine Instances.
+      incorrectExplanation: Usługa Azure Reserved Virtual Machine Instances, cofnięcie przydziału maszyn wirtualnych poza godzinami pracy, ustawienie prawidłowego rozmiaru dla nie w pełni wykorzystanych maszyn wirtualnych, usunięcie nieużywanych maszyn wirtualnych i migracja do usług PaaS lub SaaS to wszystko przykłady rozwiązań redukujących koszty.
+      isCorrect: false
+    - content: Równoważenie obciążenia maszyn wirtualnych pod kątem komunikatów przychodzących.
+      correctExplanation: Równoważenie obciążenia jest używane do optymalizowania wydajności. Usługa Azure Reserved Virtual Machine Instances, cofnięcie przydziału maszyn wirtualnych poza godzinami pracy, ustawienie prawidłowego rozmiaru dla nie w pełni wykorzystanych maszyn wirtualnych, usunięcie nieużywanych maszyn wirtualnych i migracja do usług PaaS lub SaaS to wszystko przykłady rozwiązań redukujących koszty.
+      isCorrect: true
+    - content: Ustawianie prawidłowego rozmiaru dla nie w pełni wykorzystanych maszyn wirtualnych.
+      incorrectExplanation: Usługa Azure Reserved Virtual Machine Instances, cofnięcie przydziału maszyn wirtualnych poza godzinami pracy, ustawienie prawidłowego rozmiaru dla nie w pełni wykorzystanych maszyn wirtualnych, usunięcie nieużywanych maszyn wirtualnych i migracja do usług PaaS lub SaaS to wszystko przykłady rozwiązań redukujących koszty.
+      isCorrect: false
+  - content: 'Centrum architektury platformy Azure to ________:'
+    choices:
+    - content: Doskonałe miejsce do znajdowania pomysłów na transformację Twojej aplikacji oraz poznawanie najlepszych rozwiązań dla szerokiej gamy architektur i usług platformy Azure.
+      correctExplanation: Centrum architektury platformy Azure udostępnia sugestie dotyczące sposobów ulepszania aplikacji i oszczędzania pieniędzy.
+      isCorrect: true
+    - content: Budynek w kampusie firmy Microsoft w Seattle, gdzie można rozmawiać o infrastrukturze.
+      incorrectExplanation: Centrum architektury platformy Azure to produkt oprogramowania wbudowany w platformę Azure i oferujący sugestie umożliwiające ulepszenie aplikacji.
+      isCorrect: false
+    - content: Muzeum oparte na chmurze poświęcone Frankowi Lloydowi Wrightowi.
+      incorrectExplanation: Centrum architektury platformy Azure to produkt oprogramowania wbudowany w platformę Azure i oferujący sugestie umożliwiające ulepszenie aplikacji.
+      isCorrect: false

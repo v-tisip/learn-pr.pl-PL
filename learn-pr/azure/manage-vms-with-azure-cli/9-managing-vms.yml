@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.manage-vms-with-azure-cli-data.9-managing-vms
+title: Uruchamianie i zatrzymywanie maszyny wirtualnej przy użyciu interfejsu wiersza polecenia platformy Azure
+metadata:
+  title: Uruchamianie i zatrzymywanie maszyny wirtualnej przy użyciu interfejsu wiersza polecenia platformy Azure
+  description: Dowiedz się, jak uruchamiać i zatrzymywać maszyny wirtualne za pomocą interfejsu wiersza polecenia platformy Azure
+  ms.openlocfilehash: dcceabd66f496850d3f6b35db5ef12774908027a
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40446899"
+interactive: bash
+durationInMinutes: 4
+content: '[!include[](includes/9-managing-vms.md)]'

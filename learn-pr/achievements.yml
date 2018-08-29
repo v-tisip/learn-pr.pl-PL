@@ -1,0 +1,254 @@
+### YamlMime:Achievements
+achievements:
+- uid: learn.sample-path.trophy
+  type: trophy
+  title: Trofeum przykładowej ścieżki szkoleniowej
+  summary: Trofeum dla ścieżki szkoleniowej „Trofeum przykładowej ścieżki szkoleniowej”.
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.placeholder.trophy
+  type: trophy
+  iconUrl: http://via.placeholder.com/120x120
+  title: Trofeum symbolu zastępczego ścieżki szkoleniowej
+  summary: Podsumowanie trofeum przykładowej ścieżki szkoleniowej
+- uid: learn.placeholder.badge
+  type: badge
+  iconUrl: http://via.placeholder.com/120x120
+  title: Znaczek Symbol zastępczy modułu
+  summary: Podsumowanie trofeum Przykładowy moduł
+- uid: learn.sample-module-cloudshell.badge
+  type: badge
+  title: Znaczek Przykładowy moduł z usługą CloudShell
+  summary: Znaczek dla modułu „Przykładowy moduł z usługą CloudShell”.
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.build-a-serverless-web-app.badge
+  type: badge
+  title: Znaczek Tworzenie bezserwerowej aplikacji internetowej
+  summary: Znaczek dla modułu „Tworzenie bezserwerowej aplikacji internetowej”.
+  iconUrl: /learn/azure/build-a-serverless-web-app/achievement/build-a-serverless-web-app.svg
+- uid: learn.cd-pipeline-github-to-azure-web-app.badge
+  type: badge
+  title: Znaczek Tworzenie potoku ciągłego wdrażania z repozytorium GitHub do aplikacji internetowej platformy Azure
+  summary: Podsumowanie znaczka Tworzenie potoku ciągłego wdrażania z repozytorium GitHub do aplikacji internetowej platformy Azure
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.connect-app-to-azure-storage.badge
+  type: badge
+  title: Łączenie aplikacji z usługą Azure Storage
+  summary: Łączenie aplikacji z usługą Azure Storage
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.create-azure-storage-account.badge
+  type: badge
+  title: Znaczek Tworzenie konta usługi Azure Storage
+  summary: Podsumowanie znaczka Tworzenie konta usługi Azure Storage
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.create-serverless-logic-with-functions.badge
+  type: badge
+  title: Tworzenie logiki bezserwerowej za pomocą usługi Azure Functions
+  summary: Tworzenie logiki bezserwerowej za pomocą usługi Azure Functions
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.host-web-app-with-azure-web-apps.badge
+  type: badge
+  title: Znaczek Hostowanie aplikacji internetowej z przy użyciu usługi Azure Web Apps
+  summary: Podsumowanie znaczka Hostowanie aplikacji internetowej z przy użyciu usługi Azure Web Apps
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.publish-azure-web-app-with-visual-studio.badge
+  type: badge
+  title: Znaczek Publikowanie aplikacji internetowej platformy Azure za pomocą programu Visual Studio dla systemu Windows lub Mac
+  summary: Podsumowanie znaczka Publikowanie aplikacji internetowej platformy Azure za pomocą programu Visual Studio dla systemu Windows lub Mac
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.administer-containers-in-azure.trophy
+  type: trophy
+  title: Trofeum Administrowanie kontenerami na platformie Azure
+  summary: Trofeum dla ścieżki szkoleniowej „Administrowanie kontenerami na platformie Azure”
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.cloud-fundamentals.trophy
+  type: trophy
+  title: Trofeum Podstawy chmury
+  summary: Trofeum dla ścieżki szkoleniowej „Podstawy chmury”.
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.azure-architecture-foundations.trophy
+  type: trophy
+  title: Trofeum Podstawy architektury platformy Azure
+  summary: Trofeum dla ścieżki szkoleniowej „Podstawy architektury platformy Azure”.
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.architect-great-solutions-in-azure.trophy
+  type: trophy
+  title: Trofeum Projektowanie wspaniałych rozwiązań na platformie Azure
+  summary: Trofeum dla ścieżki szkoleniowej „Projektowanie wspaniałych rozwiązań na platformie Azure”.
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.create-backend-services-in-azure.trophy
+  type: trophy
+  title: Trofeum Tworzenie usług zaplecza na platformie Azure
+  summary: Trofeum dla ścieżki szkoleniowej „Tworzenie usług zaplecza na platformie Azure”.
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.prepare-to-use-azure.trophy
+  type: trophy
+  title: Trofeum Przygotowanie do korzystania z platformy Azure
+  summary: Trofeum dla ścieżki szkoleniowej „Przygotowanie do korzystania z platformy Azure”
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.deploy-a-website-to-azure-with-managed-hosting.trophy
+  type: trophy
+  title: Trofeum Wdrażanie witryny internetowej na platformie Azure przy użyciu hostingu zarządzanego
+  summary: Trofeum dla ścieżki szkoleniowej „Wdrażanie witryny internetowej na platformie Azure przy użyciu hostingu zarządzanego”.
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.work-with-nosql-data-in-azure-cosmos-db.trophy
+  type: trophy
+  title: Trofeum Praca z danymi NoSQL w usłudze Azure Cosmos DB
+  summary: Trofeum dla ścieżki szkoleniowej „Praca z danymi NoSQL w usłudze Azure Cosmos DB”.
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.work-with-relational-data-in-azure.trophy
+  type: trophy
+  title: Trofeum Praca z danymi relacyjnymi na platformie Azure
+  summary: Trofeum dla ścieżki szkoleniowej „Praca z danymi relacyjnymi na platformie Azure”.
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.secure-your-web-data-in-azure.trophy
+  type: trophy
+  title: Trofeum Zabezpieczanie danych internetowych na platformie Azure
+  summary: Trofeum dla ścieżki szkoleniowej „Zabezpieczanie danych internetowych na platformie Azure”.
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.store-data-in-azure.trophy
+  type: trophy
+  title: Trofeum Przechowywanie danych na platformie Azure
+  summary: Trofeum dla ścieżki szkoleniowej „Przechowywanie danych na platformie Azure”.
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.automate-azure-tasks-with-powershell.badge
+  type: badge
+  title: Znaczek Automatyzacja zadań platformy Azure przy użyciu skryptów za pomocą programu PowerShell
+  summary: Podsumowanie automatyzacji zadań platformy Azure przy użyciu skryptów za pomocą programu PowerShell
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.create-azure-db-for-postgresql.badge
+  type: badge
+  title: Znaczek Tworzenie serwera bazy danych PostgreSQL za pomocą interfejsu wiersza polecenia platformy Azure
+  summary: Podsumowanie tworzenia serwera bazy danych PostgreSQL za pomocą interfejsu wiersza polecenia platformy Azure
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.create-linux-vm-in-azure.badge
+  type: badge
+  title: Znaczek Tworzenie maszyny wirtualnej z systemem Linux na platformie Azure
+  summary: Podsumowanie tworzenia maszyny wirtualnej z systemem Linux na platformie Azure
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.choose-messaging-model.badge
+  type: badge
+  title: Znaczek Wybieranie modelu obsługi komunikatów
+  summary: Podsumowanie znaczka Wybieranie modelu obsługi komunikatów
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.prepare-azure-dev-environment.badge
+  type: badge
+  title: Znaczek Przygotowanie środowiska programistycznego platformy Azure
+  summary: Podsumowanie znaczka Przygotowanie środowiska programistycznego platformy Azure
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.manage-resources-with-azure-portal.badge
+  type: badge
+  title: Znaczek Zarządzanie zasobami za pomocą witryny Azure Portal
+  summary: Podsumowanie znaczka Zarządzanie zasobami za pomocą witryny Azure Portal
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.explore-azure-services-for-web-devs.badge
+  type: badge
+  title: Znaczek Eksplorowanie usług platformy Azure dla deweloperów internetowych
+  summary: Podsumowanie znaczka Eksplorowanie usług platformy Azure dla deweloperów internetowych
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.control-azure-services-with-cli.badge
+  type: badge
+  title: Znaczek Kontrolowanie usług platformy Azure za pomocą interfejsu wiersza polecenia
+  summary: Podsumowanie znaczka Kontrolowanie usług platformy Azure za pomocą interfejsu wiersza polecenia
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.azure-services-features.badge
+  type: badge
+  title: Znaczek Poznawanie usług i funkcji platformy Azure
+  summary: Podsumowanie znaczka Poznawanie usług i funkcji platformy Azure
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.migrate-sql-server-relational-data.badge
+  type: badge
+  title: Migrowanie danych relacyjnych programu SQL Server do bazy danych SQL platformy Azure
+  summary: Migrowanie danych relacyjnych programu SQL Server do bazy danych SQL platformy Azure
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.communicate-between-apps-with-storage-queues.badge
+  type: badge
+  title: Znaczek Komunikacja między aplikacjami za pomocą kolejki usługi Azure Storage
+  summary: Podsumowanie komunikacji między aplikacjami za pomocą kolejki usługi Azure Storage
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.create-a-windows-vm-in-azure.badge
+  type: badge
+  title: Tworzenie maszyny wirtualnej z systemem Windows na platformie Azure
+  summary: Tworzenie maszyny wirtualnej z systemem Windows na platformie Azure
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.choose-web-hosting.badge
+  type: badge
+  title: Wybieranie opcji hostingu internetowego na platformie Azure
+  summary: Wybieranie opcji hostingu internetowego na platformie Azure
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.interactive-iot-deployments.badge
+  type: badge
+  title: Praca z interaktywnymi wdrożeniami IoT na platformie Azure
+  summary: Praca z interaktywnymi wdrożeniami IoT na platformie Azure
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.iot-for-ops.badge
+  type: badge
+  title: Usługa IoT Suite dla operacji
+  summary: Usługa IoT Suite dla operacji
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.web-app-with-mean-on-linux-vm.badge
+  type: badge
+  title: Kompilowanie i uruchamianie aplikacji internetowych za pomocą stosu MEAN na maszynie wirtualnej z systemem Linux na platformie Azure
+  summary: Kompilowanie i uruchamianie aplikacji internetowych za pomocą stosu MEAN na maszynie wirtualnej z systemem Linux na platformie Azure
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.optimize-web-app-with-redis.badge
+  type: badge
+  title: Optymalizacja aplikacji internetowych przez buforowanie danych tylko do odczytu za pomocą pamięci podręcznej Redis
+  summary: Optymalizacja aplikacji internetowych przez buforowanie danych tylko do odczytu za pomocą pamięci podręcznej Redis
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.manage-secrets-with-azure-key-vault.badge
+  type: badge
+  title: Zarządzanie wpisami tajnymi w aplikacjach internetowych za pomocą usługi Azure Key Vault
+  summary: Zarządzanie wpisami tajnymi w aplikacjach internetowych za pomocą usługi Azure Key Vault
+  iconUrl: /learn/modules/manage-secrets-with-azure-key-vault/achievement/manage-secrets-with-azure-key-vault.svg
+- uid: learn.secure-azure-resources-with-rbac.badge
+  type: badge
+  title: Zabezpieczanie zasobów platformy Azure przy użyciu kontroli dostępu opartej na rolach (RBAC)
+  summary: Zabezpieczanie zasobów platformy Azure przy użyciu kontroli dostępu opartej na rolach (RBAC)
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.badge
+  type: badge
+  title: Znaczek Wysyłanie informacji o lokalizacji za pośrednictwem wiadomości SMS z telefonu za pomocą usługi Azure Functions i Twilio
+  summary: Znaczek dla modułu „Wysyłanie informacji o lokalizacji za pośrednictwem wiadomości SMS z telefonu za pomocą usługi Azure Functions i Twilio”
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.manage-vms-with-azure-cli-data.badge
+  type: badge
+  title: Zarządzanie maszynami wirtualnymi przy użyciu interfejsu wiersza polecenia platformy Azure
+  summary: Zarządzanie maszynami wirtualnymi przy użyciu interfejsu wiersza polecenia platformy Azure
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.deploy-a-website-to-azure-with-vm-hosting.trophy
+  type: trophy
+  title: Trofeum Wdrażanie witryny internetowej na platformie Azure przy użyciu hostingu maszyn wirtualnych
+  summary: Trofeum dla ścieżki szkoleniowej „Wdrażanie witryny internetowej na platformie Azure przy użyciu hostingu maszyn wirtualnych”.
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.store-app-data-with-azure-blob-storage.badge
+  type: badge
+  title: Przechowywanie danych aplikacji internetowej za pomocą usługi Azure Blob Storage
+  summary: Przechowywanie danych aplikacji internetowej za pomocą usługi Azure Blob Storage
+  iconUrl: /learn/modules/store-app-data-with-azure-blob-storage/achievement/store-app-data-with-azure-blob-storage.svg
+- uid: learn.enable-reliable-messaging-for-big-data-applications-using-azure-event-hubs.badge
+  type: badge
+  title: Włączanie niezawodnej obsługi komunikatów dla aplikacji przetwarzających dane Big Data przy użyciu usługi Azure Event Hubs
+  summary: Moduł włączania niezawodnej obsługi komunikatów dla aplikacji przetwarzających dane Big Data przy użyciu usługi Azure Event Hubs
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.intro-to-compute.badge
+  type: badge
+  title: Znaczek Wprowadzenie do obliczeń
+  summary: Znaczek dla modułu „Wprowadzenie do obliczeń”.
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.intro-to-data-in-azure.badge
+  type: badge
+  title: Znaczek Wprowadzenie do danych na platformie Azure
+  summary: Znaczek dla modułu „Wprowadzenie do danych na platformie Azure”.
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.cosmos-db-app-with-vscode.badge
+  type: badge
+  title: Tworzenie aplikacji usługi Azure Cosmos DB w programie Visual Studio Code
+  summary: Trofeum dla modułu „Tworzenie aplikacji usługi Azure Cosmos DB w programie Visual Studio Code”.
+  iconUrl: http://via.placeholder.com/120x120
+metadata:
+  ms.openlocfilehash: f7775c5f422578b4f98ef8b6fcf2c8213e5e9bb4
+  ms.sourcegitcommit: 0e0cc41b7669e7149541f34f3f24ba0e864ed07d
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/23/2018
+  ms.locfileid: "42702342"
