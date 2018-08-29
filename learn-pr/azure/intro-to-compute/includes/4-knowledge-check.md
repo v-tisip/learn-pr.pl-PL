@@ -1,1 +1,0 @@
-Aby lepiej zapamiętać poznane treści, zapoznaj się z dwoma scenariuszami dotyczącymi zespołu astronomów i odpowiedź na powiązane pytania.
