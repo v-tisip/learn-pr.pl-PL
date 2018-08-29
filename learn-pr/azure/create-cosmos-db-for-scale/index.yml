@@ -1,0 +1,32 @@
+### YamlMime:Module
+uid: learn.create-cosmos-db-for-scale
+metadata:
+  title: Tworzenie bazy danych usługi Azure Cosmos DB skompilowanej w odpowiedniej skali
+  description: Dowiedz się, jak utworzyć konto, bazę danych i kolekcję usługi Azure Cosmos DB skompilowane w odpowiedniej skali w miarę rozwoju aplikacji.
+  ms.openlocfilehash: be424d7fb9f4cac1acda8f371d1acb8b82b1f105
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40449003"
+title: Tworzenie bazy danych usługi Azure Cosmos DB skompilowanej w odpowiedniej skali
+summary: Dowiedz się, jak utworzyć skalowalne konto, bazę danych i kolekcję usługi Azure Cosmos DB.
+abstract: W tym module utworzysz bazę danych NoSQL skompilowaną w odpowiedniej skali za pomocą usługi Azure Cosmos DB. Nauczysz się także mierzyć i konfigurować przepływność i partycjonowanie bazy danych, czyli poznasz podstawowe pojęcia dotyczące projektowania globalnej bazy danych. Poznając te pojęcia, zanim utworzysz bazę danych oraz na wczesnym etapie procesu programowania, zapewnisz sobie sukces później, gdy trzeba będzie zwiększyć skalę, aby spełnić wymagania rozwijającej się bazy danych.
+cardDescription: Dowiedz się, jak utworzyć konto, bazę danych i kolekcję usługi Azure Cosmos DB.
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- developer
+products:
+- Azure
+units:
+- learn.create-cosmos-db-for-scale.1-introduction
+- learn.create-cosmos-db-for-scale.2-create-an-account
+- learn.create-cosmos-db-for-scale.3-what-is-a-request-unit
+- learn.create-cosmos-db-for-scale.4-knowledge-check-what-is-a-request-unit
+- learn.create-cosmos-db-for-scale.5-how-to-choose-a-partition-key
+- learn.create-cosmos-db-for-scale.6-knowledge-check-how-to-choose-a-partition-key
+- learn.create-cosmos-db-for-scale.7-create-a-database-and-collection
+- learn.create-cosmos-db-for-scale.8-summary-cleanup
+achievement: learn.placeholder.badge

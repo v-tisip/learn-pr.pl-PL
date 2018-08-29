@@ -1,0 +1,254 @@
+### YamlMime:Achievements
+achievements:
+- uid: learn.sample-path.trophy
+  type: trophy
+  title: <span data-ttu-id="ed1df-101">Trofeum przykładowej ścieżki szkoleniowej</span><span class="sxs-lookup"><span data-stu-id="ed1df-101">Sample Learning Path Trophy</span></span>
+  summary: <span data-ttu-id="ed1df-102">Trofeum dla ścieżki szkoleniowej „Trofeum przykładowej ścieżki szkoleniowej”.</span><span class="sxs-lookup"><span data-stu-id="ed1df-102">Trophy for the 'Sample Learning Path Trophy' learning path.</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.placeholder.trophy
+  type: trophy
+  iconUrl: http://via.placeholder.com/120x120
+  title: <span data-ttu-id="ed1df-103">Trofeum symbolu zastępczego ścieżki szkoleniowej</span><span class="sxs-lookup"><span data-stu-id="ed1df-103">Learning Path Placeholder Trophy</span></span>
+  summary: <span data-ttu-id="ed1df-104">Podsumowanie trofeum przykładowej ścieżki szkoleniowej</span><span class="sxs-lookup"><span data-stu-id="ed1df-104">Sample Learning Path Trophy Summary</span></span>
+- uid: learn.placeholder.badge
+  type: badge
+  iconUrl: http://via.placeholder.com/120x120
+  title: <span data-ttu-id="ed1df-105">Znaczek Symbol zastępczy modułu</span><span class="sxs-lookup"><span data-stu-id="ed1df-105">Module Placeholder Badge</span></span>
+  summary: <span data-ttu-id="ed1df-106">Podsumowanie trofeum Przykładowy moduł</span><span class="sxs-lookup"><span data-stu-id="ed1df-106">Sample Module Trophy Summary</span></span>
+- uid: learn.sample-module-cloudshell.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-107">Znaczek Przykładowy moduł z usługą CloudShell</span><span class="sxs-lookup"><span data-stu-id="ed1df-107">Sample Module with CloudShell Badge</span></span>
+  summary: <span data-ttu-id="ed1df-108">Znaczek dla modułu „Przykładowy moduł z usługą CloudShell”.</span><span class="sxs-lookup"><span data-stu-id="ed1df-108">Badge for the 'Sample module with CloudShell' module.</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.build-a-serverless-web-app.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-109">Znaczek Tworzenie bezserwerowej aplikacji internetowej</span><span class="sxs-lookup"><span data-stu-id="ed1df-109">Build a serverless web app Badge</span></span>
+  summary: <span data-ttu-id="ed1df-110">Znaczek dla modułu „Tworzenie bezserwerowej aplikacji internetowej”.</span><span class="sxs-lookup"><span data-stu-id="ed1df-110">Badge for the 'Build a serverless web app' module.</span></span>
+  iconUrl: /learn/azure/build-a-serverless-web-app/achievement/build-a-serverless-web-app.svg
+- uid: learn.cd-pipeline-github-to-azure-web-app.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-111">Znaczek Tworzenie potoku ciągłego wdrażania z repozytorium GitHub do aplikacji internetowej platformy Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-111">Create a continuous deployment pipeline from GitHub to your Azure Web App Badge</span></span>
+  summary: <span data-ttu-id="ed1df-112">Podsumowanie znaczka Tworzenie potoku ciągłego wdrażania z repozytorium GitHub do aplikacji internetowej platformy Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-112">Create a continuous deployment pipeline from GitHub to your Azure Web App Badge Summary</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.connect-app-to-azure-storage.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-113">Łączenie aplikacji z usługą Azure Storage</span><span class="sxs-lookup"><span data-stu-id="ed1df-113">Connect an app to Azure Storage</span></span>
+  summary: <span data-ttu-id="ed1df-114">Łączenie aplikacji z usługą Azure Storage</span><span class="sxs-lookup"><span data-stu-id="ed1df-114">Connect an app to Azure Storage</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.create-azure-storage-account.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-115">Znaczek Tworzenie konta usługi Azure Storage</span><span class="sxs-lookup"><span data-stu-id="ed1df-115">Create an Azure storage account Badge</span></span>
+  summary: <span data-ttu-id="ed1df-116">Podsumowanie znaczka Tworzenie konta usługi Azure Storage</span><span class="sxs-lookup"><span data-stu-id="ed1df-116">Create an Azure storage account Badge Summary</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.create-serverless-logic-with-functions.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-117">Tworzenie logiki bezserwerowej za pomocą usługi Azure Functions</span><span class="sxs-lookup"><span data-stu-id="ed1df-117">Create serverless logic with Azure Functions</span></span>
+  summary: <span data-ttu-id="ed1df-118">Tworzenie logiki bezserwerowej za pomocą usługi Azure Functions</span><span class="sxs-lookup"><span data-stu-id="ed1df-118">Create serverless logic with Azure Functions</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.host-web-app-with-azure-web-apps.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-119">Znaczek Hostowanie aplikacji internetowej z przy użyciu usługi Azure Web Apps</span><span class="sxs-lookup"><span data-stu-id="ed1df-119">Host a web application with Azure Web Apps Badge</span></span>
+  summary: <span data-ttu-id="ed1df-120">Podsumowanie znaczka Hostowanie aplikacji internetowej z przy użyciu usługi Azure Web Apps</span><span class="sxs-lookup"><span data-stu-id="ed1df-120">Host a web application with Azure Web Apps Badge Summary</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.publish-azure-web-app-with-visual-studio.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-121">Znaczek Publikowanie aplikacji internetowej platformy Azure za pomocą programu Visual Studio dla systemu Windows lub Mac</span><span class="sxs-lookup"><span data-stu-id="ed1df-121">Publish an Azure Web App with Visual Studio for Windows or Mac Badge</span></span>
+  summary: <span data-ttu-id="ed1df-122">Podsumowanie znaczka Publikowanie aplikacji internetowej platformy Azure za pomocą programu Visual Studio dla systemu Windows lub Mac</span><span class="sxs-lookup"><span data-stu-id="ed1df-122">Publish an Azure Web App with Visual Studio for Windows or Mac Badge Summary</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.administer-containers-in-azure.trophy
+  type: trophy
+  title: <span data-ttu-id="ed1df-123">Trofeum Administrowanie kontenerami na platformie Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-123">Administer containers in Azure Trophy</span></span>
+  summary: <span data-ttu-id="ed1df-124">Trofeum dla ścieżki szkoleniowej „Administrowanie kontenerami na platformie Azure”</span><span class="sxs-lookup"><span data-stu-id="ed1df-124">Trophy for the 'Administer containers in Azure' learning path</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.cloud-fundamentals.trophy
+  type: trophy
+  title: <span data-ttu-id="ed1df-125">Trofeum Podstawy chmury</span><span class="sxs-lookup"><span data-stu-id="ed1df-125">Cloud Fundamentals Trophy</span></span>
+  summary: <span data-ttu-id="ed1df-126">Trofeum dla ścieżki szkoleniowej „Podstawy chmury”.</span><span class="sxs-lookup"><span data-stu-id="ed1df-126">Trophy for the 'Cloud Fundamentals' learning path.</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.azure-architecture-foundations.trophy
+  type: trophy
+  title: <span data-ttu-id="ed1df-127">Trofeum Podstawy architektury platformy Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-127">Azure architecture foundations Trophy</span></span>
+  summary: <span data-ttu-id="ed1df-128">Trofeum dla ścieżki szkoleniowej „Podstawy architektury platformy Azure”.</span><span class="sxs-lookup"><span data-stu-id="ed1df-128">Trophy for the 'Azure architecture foundations' learning path.</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.architect-great-solutions-in-azure.trophy
+  type: trophy
+  title: <span data-ttu-id="ed1df-129">Trofeum Projektowanie wspaniałych rozwiązań na platformie Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-129">Architect great solutions in Azure Trophy</span></span>
+  summary: <span data-ttu-id="ed1df-130">Trofeum dla ścieżki szkoleniowej „Projektowanie wspaniałych rozwiązań na platformie Azure”.</span><span class="sxs-lookup"><span data-stu-id="ed1df-130">Trophy for the 'Architect great solutions in Azure' learning path.</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.create-backend-services-in-azure.trophy
+  type: trophy
+  title: <span data-ttu-id="ed1df-131">Trofeum Tworzenie usług zaplecza na platformie Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-131">Create backend services in Azure Trophy</span></span>
+  summary: <span data-ttu-id="ed1df-132">Trofeum dla ścieżki szkoleniowej „Tworzenie usług zaplecza na platformie Azure”.</span><span class="sxs-lookup"><span data-stu-id="ed1df-132">Trophy for the 'Create backend services in Azure' learning path.</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.prepare-to-use-azure.trophy
+  type: trophy
+  title: <span data-ttu-id="ed1df-133">Trofeum Przygotowanie do korzystania z platformy Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-133">Prepare to use Azure Trophy</span></span>
+  summary: <span data-ttu-id="ed1df-134">Trofeum dla ścieżki szkoleniowej „Przygotowanie do korzystania z platformy Azure”</span><span class="sxs-lookup"><span data-stu-id="ed1df-134">Trophy for the 'Prepare to use Azure' learning path</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.deploy-a-website-to-azure-with-managed-hosting.trophy
+  type: trophy
+  title: <span data-ttu-id="ed1df-135">Trofeum Wdrażanie witryny internetowej na platformie Azure przy użyciu hostingu zarządzanego</span><span class="sxs-lookup"><span data-stu-id="ed1df-135">Deploy a website to Azure with Managed Hosting Trophy</span></span>
+  summary: <span data-ttu-id="ed1df-136">Trofeum dla ścieżki szkoleniowej „Wdrażanie witryny internetowej na platformie Azure przy użyciu hostingu zarządzanego”.</span><span class="sxs-lookup"><span data-stu-id="ed1df-136">Trophy for the 'Deploy a website to Azure with Managed Hosting' learning path.</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.work-with-nosql-data-in-azure-cosmos-db.trophy
+  type: trophy
+  title: <span data-ttu-id="ed1df-137">Trofeum Praca z danymi NoSQL w usłudze Azure Cosmos DB</span><span class="sxs-lookup"><span data-stu-id="ed1df-137">Working with NoSQL data in Azure Cosmos DB Trophy</span></span>
+  summary: <span data-ttu-id="ed1df-138">Trofeum dla ścieżki szkoleniowej „Praca z danymi NoSQL w usłudze Azure Cosmos DB”.</span><span class="sxs-lookup"><span data-stu-id="ed1df-138">Trophy for 'Working with NoSQL data in Azure Cosmos DB' learning path.</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.work-with-relational-data-in-azure.trophy
+  type: trophy
+  title: <span data-ttu-id="ed1df-139">Trofeum Praca z danymi relacyjnymi na platformie Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-139">Work with relational data in Azure Trophy</span></span>
+  summary: <span data-ttu-id="ed1df-140">Trofeum dla ścieżki szkoleniowej „Praca z danymi relacyjnymi na platformie Azure”.</span><span class="sxs-lookup"><span data-stu-id="ed1df-140">Trophy for the 'Working with relational data in Azure' learning path.</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.secure-your-web-data-in-azure.trophy
+  type: trophy
+  title: <span data-ttu-id="ed1df-141">Trofeum Zabezpieczanie danych internetowych na platformie Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-141">Secure your web data in Azure Trophy</span></span>
+  summary: <span data-ttu-id="ed1df-142">Trofeum dla ścieżki szkoleniowej „Zabezpieczanie danych internetowych na platformie Azure”.</span><span class="sxs-lookup"><span data-stu-id="ed1df-142">Trophy for the 'Secure your web data in Azure' learning path.</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.store-data-in-azure.trophy
+  type: trophy
+  title: <span data-ttu-id="ed1df-143">Trofeum Przechowywanie danych na platformie Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-143">Store data in Azure Trophy</span></span>
+  summary: <span data-ttu-id="ed1df-144">Trofeum dla ścieżki szkoleniowej „Przechowywanie danych na platformie Azure”.</span><span class="sxs-lookup"><span data-stu-id="ed1df-144">Trophy for the 'Store data in Azure' learning path.</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.automate-azure-tasks-with-powershell.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-145">Znaczek Automatyzacja zadań platformy Azure przy użyciu skryptów za pomocą programu PowerShell</span><span class="sxs-lookup"><span data-stu-id="ed1df-145">Automate Azure tasks using scripts with PowerShell Badge</span></span>
+  summary: <span data-ttu-id="ed1df-146">Podsumowanie automatyzacji zadań platformy Azure przy użyciu skryptów za pomocą programu PowerShell</span><span class="sxs-lookup"><span data-stu-id="ed1df-146">Automate Azure tasks using scripts with PowerShell Summary</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.create-azure-db-for-postgresql.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-147">Znaczek Tworzenie serwera bazy danych PostgreSQL za pomocą interfejsu wiersza polecenia platformy Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-147">Create a PostgreSQL DB server via the Azure CLI Badge</span></span>
+  summary: <span data-ttu-id="ed1df-148">Podsumowanie tworzenia serwera bazy danych PostgreSQL za pomocą interfejsu wiersza polecenia platformy Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-148">Create a PostgreSQL DB server via the Azure CLI Summary</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.create-linux-vm-in-azure.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-149">Znaczek Tworzenie maszyny wirtualnej z systemem Linux na platformie Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-149">Create a Linux virtual machine in Azure Badge</span></span>
+  summary: <span data-ttu-id="ed1df-150">Podsumowanie tworzenia maszyny wirtualnej z systemem Linux na platformie Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-150">Create a Linux virtual machine in Azure Summary</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.choose-messaging-model.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-151">Znaczek Wybieranie modelu obsługi komunikatów</span><span class="sxs-lookup"><span data-stu-id="ed1df-151">Choose messaging model Badge</span></span>
+  summary: <span data-ttu-id="ed1df-152">Podsumowanie znaczka Wybieranie modelu obsługi komunikatów</span><span class="sxs-lookup"><span data-stu-id="ed1df-152">Choose messaging model Badge Summary</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.prepare-azure-dev-environment.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-153">Znaczek Przygotowanie środowiska programistycznego platformy Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-153">Prepare Azure development environment Badge</span></span>
+  summary: <span data-ttu-id="ed1df-154">Podsumowanie znaczka Przygotowanie środowiska programistycznego platformy Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-154">Prepare Azure development environment Badge Summary</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.manage-resources-with-azure-portal.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-155">Znaczek Zarządzanie zasobami za pomocą witryny Azure Portal</span><span class="sxs-lookup"><span data-stu-id="ed1df-155">Manage resources with Azure portal Badge</span></span>
+  summary: <span data-ttu-id="ed1df-156">Podsumowanie znaczka Zarządzanie zasobami za pomocą witryny Azure Portal</span><span class="sxs-lookup"><span data-stu-id="ed1df-156">Manage resources with Azure portal Badge Summary</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.explore-azure-services-for-web-devs.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-157">Znaczek Eksplorowanie usług platformy Azure dla deweloperów internetowych</span><span class="sxs-lookup"><span data-stu-id="ed1df-157">Explore Azure services for web developers Badge</span></span>
+  summary: <span data-ttu-id="ed1df-158">Podsumowanie znaczka Eksplorowanie usług platformy Azure dla deweloperów internetowych</span><span class="sxs-lookup"><span data-stu-id="ed1df-158">Explore Azure services for web developers Badge Summary</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.control-azure-services-with-cli.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-159">Znaczek Kontrolowanie usług platformy Azure za pomocą interfejsu wiersza polecenia</span><span class="sxs-lookup"><span data-stu-id="ed1df-159">Control Azure services with the CLI Badge</span></span>
+  summary: <span data-ttu-id="ed1df-160">Podsumowanie znaczka Kontrolowanie usług platformy Azure za pomocą interfejsu wiersza polecenia</span><span class="sxs-lookup"><span data-stu-id="ed1df-160">Control Azure services with the CLI Badge Summary</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.azure-services-features.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-161">Znaczek Poznawanie usług i funkcji platformy Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-161">Tour Azure services and features Badge</span></span>
+  summary: <span data-ttu-id="ed1df-162">Podsumowanie znaczka Poznawanie usług i funkcji platformy Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-162">Tour Azure services and features Summary</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.migrate-sql-server-relational-data.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-163">Migrowanie danych relacyjnych programu SQL Server do bazy danych SQL platformy Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-163">Migrate SQL serer relational data to Azure SQL</span></span>
+  summary: <span data-ttu-id="ed1df-164">Migrowanie danych relacyjnych programu SQL Server do bazy danych SQL platformy Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-164">Migrate SQL serer relational data to Azure SQL</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.communicate-between-apps-with-storage-queues.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-165">Znaczek Komunikacja między aplikacjami za pomocą kolejki usługi Azure Storage</span><span class="sxs-lookup"><span data-stu-id="ed1df-165">Communicate between applications with an Azure storage queue Badge</span></span>
+  summary: <span data-ttu-id="ed1df-166">Podsumowanie komunikacji między aplikacjami za pomocą kolejki usługi Azure Storage</span><span class="sxs-lookup"><span data-stu-id="ed1df-166">Communicate between applications with an Azure storage queue Summary</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.create-a-windows-vm-in-azure.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-167">Tworzenie maszyny wirtualnej z systemem Windows na platformie Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-167">Create a Windows virtual machine in Azure</span></span>
+  summary: <span data-ttu-id="ed1df-168">Tworzenie maszyny wirtualnej z systemem Windows na platformie Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-168">Create a Windows virtual machine in Azure</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.choose-web-hosting.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-169">Wybieranie opcji hostingu internetowego na platformie Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-169">Choose a Web Hosting Option in Azure</span></span>
+  summary: <span data-ttu-id="ed1df-170">Wybieranie opcji hostingu internetowego na platformie Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-170">Choose a Web Hosting Option in Azure</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.interactive-iot-deployments.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-171">Praca z interaktywnymi wdrożeniami IoT na platformie Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-171">Working with interactive IoT deployments in Azure</span></span>
+  summary: <span data-ttu-id="ed1df-172">Praca z interaktywnymi wdrożeniami IoT na platformie Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-172">Working with interactive IoT deployments in Azure</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.iot-for-ops.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-173">Usługa IoT Suite dla operacji</span><span class="sxs-lookup"><span data-stu-id="ed1df-173">IoT Suite for ops</span></span>
+  summary: <span data-ttu-id="ed1df-174">Usługa IoT Suite dla operacji</span><span class="sxs-lookup"><span data-stu-id="ed1df-174">IoT Suite for ops</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.web-app-with-mean-on-linux-vm.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-175">Kompilowanie i uruchamianie aplikacji internetowych za pomocą stosu MEAN na maszynie wirtualnej z systemem Linux na platformie Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-175">Build and run a web application with the MEAN stack on an Azure Linux virtual machine</span></span>
+  summary: <span data-ttu-id="ed1df-176">Kompilowanie i uruchamianie aplikacji internetowych za pomocą stosu MEAN na maszynie wirtualnej z systemem Linux na platformie Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-176">Build and run a web application with the MEAN stack on an Azure Linux virtual machine</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.optimize-web-app-with-redis.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-177">Optymalizacja aplikacji internetowych przez buforowanie danych tylko do odczytu za pomocą pamięci podręcznej Redis</span><span class="sxs-lookup"><span data-stu-id="ed1df-177">Optimize your web applications by caching read-only data with Redis</span></span>
+  summary: <span data-ttu-id="ed1df-178">Optymalizacja aplikacji internetowych przez buforowanie danych tylko do odczytu za pomocą pamięci podręcznej Redis</span><span class="sxs-lookup"><span data-stu-id="ed1df-178">Optimize your web applications by caching read-only data with Redis</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.manage-secrets-with-azure-key-vault.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-179">Zarządzanie wpisami tajnymi w aplikacjach internetowych za pomocą usługi Azure Key Vault</span><span class="sxs-lookup"><span data-stu-id="ed1df-179">Manage secrets in your web apps with Azure Key Vault</span></span>
+  summary: <span data-ttu-id="ed1df-180">Zarządzanie wpisami tajnymi w aplikacjach internetowych za pomocą usługi Azure Key Vault</span><span class="sxs-lookup"><span data-stu-id="ed1df-180">Manage secrets in your web apps with Azure Key Vault</span></span>
+  iconUrl: /learn/modules/manage-secrets-with-azure-key-vault/achievement/manage-secrets-with-azure-key-vault.svg
+- uid: learn.secure-azure-resources-with-rbac.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-181">Zabezpieczanie zasobów platformy Azure przy użyciu kontroli dostępu opartej na rolach (RBAC)</span><span class="sxs-lookup"><span data-stu-id="ed1df-181">Secure your Azure resources with role-based access control (RBAC)</span></span>
+  summary: <span data-ttu-id="ed1df-182">Zabezpieczanie zasobów platformy Azure przy użyciu kontroli dostępu opartej na rolach (RBAC)</span><span class="sxs-lookup"><span data-stu-id="ed1df-182">Secure your Azure resources with role-based access control (RBAC)</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-183">Znaczek Wysyłanie informacji o lokalizacji za pośrednictwem wiadomości SMS z telefonu za pomocą usługi Azure Functions i Twilio</span><span class="sxs-lookup"><span data-stu-id="ed1df-183">Sending location information over SMS from your phone using Azure Functions and Twilio badge</span></span>
+  summary: <span data-ttu-id="ed1df-184">Znaczek dla modułu „Wysyłanie informacji o lokalizacji za pośrednictwem wiadomości SMS z telefonu za pomocą usługi Azure Functions i Twilio”</span><span class="sxs-lookup"><span data-stu-id="ed1df-184">Badge for 'Sending location information over SMS from your phone using Azure Functions and Twilio' module</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.manage-vms-with-azure-cli-data.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-185">Zarządzanie maszynami wirtualnymi przy użyciu interfejsu wiersza polecenia platformy Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-185">Manage virtual machines with the Azure CLI</span></span>
+  summary: <span data-ttu-id="ed1df-186">Zarządzanie maszynami wirtualnymi przy użyciu interfejsu wiersza polecenia platformy Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-186">Manage virtual machines with the Azure CLI</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.deploy-a-website-to-azure-with-vm-hosting.trophy
+  type: trophy
+  title: <span data-ttu-id="ed1df-187">Trofeum Wdrażanie witryny internetowej na platformie Azure przy użyciu hostingu maszyn wirtualnych</span><span class="sxs-lookup"><span data-stu-id="ed1df-187">Deploy a website to Azure with VM Hosting Trophy</span></span>
+  summary: <span data-ttu-id="ed1df-188">Trofeum dla ścieżki szkoleniowej „Wdrażanie witryny internetowej na platformie Azure przy użyciu hostingu maszyn wirtualnych”.</span><span class="sxs-lookup"><span data-stu-id="ed1df-188">Trophy for the 'Deploy a website to Azure with VM Hosting' learning path.</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.store-app-data-with-azure-blob-storage.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-189">Przechowywanie danych aplikacji internetowej za pomocą usługi Azure Blob Storage</span><span class="sxs-lookup"><span data-stu-id="ed1df-189">Store web application data with Azure Blob Storage</span></span>
+  summary: <span data-ttu-id="ed1df-190">Przechowywanie danych aplikacji internetowej za pomocą usługi Azure Blob Storage</span><span class="sxs-lookup"><span data-stu-id="ed1df-190">Store web application data with Azure Blob Storage</span></span>
+  iconUrl: /learn/modules/store-app-data-with-azure-blob-storage/achievement/store-app-data-with-azure-blob-storage.svg
+- uid: learn.enable-reliable-messaging-for-big-data-applications-using-azure-event-hubs.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-191">Włączanie niezawodnej obsługi komunikatów dla aplikacji przetwarzających dane Big Data przy użyciu usługi Azure Event Hubs</span><span class="sxs-lookup"><span data-stu-id="ed1df-191">Enable reliable messaging for Big Data Applications using Azure Event Hubs</span></span>
+  summary: <span data-ttu-id="ed1df-192">Moduł włączania niezawodnej obsługi komunikatów dla aplikacji przetwarzających dane Big Data przy użyciu usługi Azure Event Hubs</span><span class="sxs-lookup"><span data-stu-id="ed1df-192">Enable reliable messaging for Big Data Applications using Azure Event Hubs module</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.intro-to-compute.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-193">Znaczek Wprowadzenie do obliczeń</span><span class="sxs-lookup"><span data-stu-id="ed1df-193">Introduction to Compute Badge</span></span>
+  summary: <span data-ttu-id="ed1df-194">Znaczek dla modułu „Wprowadzenie do obliczeń”.</span><span class="sxs-lookup"><span data-stu-id="ed1df-194">Badge for 'Introduction to Compute' module.</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.intro-to-data-in-azure.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-195">Znaczek Wprowadzenie do danych na platformie Azure</span><span class="sxs-lookup"><span data-stu-id="ed1df-195">Introduction to data in Azure Badge</span></span>
+  summary: <span data-ttu-id="ed1df-196">Znaczek dla modułu „Wprowadzenie do danych na platformie Azure”.</span><span class="sxs-lookup"><span data-stu-id="ed1df-196">Badge for 'Introduction to data in Azure' module.</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.cosmos-db-app-with-vscode.badge
+  type: badge
+  title: <span data-ttu-id="ed1df-197">Tworzenie aplikacji usługi Azure Cosmos DB w programie Visual Studio Code</span><span class="sxs-lookup"><span data-stu-id="ed1df-197">Build an Azure Cosmos DB app in Visual Studio Code</span></span>
+  summary: <span data-ttu-id="ed1df-198">Trofeum dla modułu „Tworzenie aplikacji usługi Azure Cosmos DB w programie Visual Studio Code”.</span><span class="sxs-lookup"><span data-stu-id="ed1df-198">Trophy for 'Build an Azure Cosmos DB app in Visual Studio Code' module.</span></span>
+  iconUrl: http://via.placeholder.com/120x120
+metadata:
+  ms.openlocfilehash: f7775c5f422578b4f98ef8b6fcf2c8213e5e9bb4
+  ms.sourcegitcommit: 0e0cc41b7669e7149541f34f3f24ba0e864ed07d
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/23/2018
+  ms.locfileid: "42702342"

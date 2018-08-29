@@ -1,0 +1,29 @@
+### YamlMime:Module
+uid: learn.cosmos-db-app-with-vscode
+metadata:
+  title: Tworzenie aplikacji platformy .NET Core dla usługi Azure Cosmos DB w programie Visual Studio Code
+  description: Dowiedz się, jak przy użyciu programu Visual Studio Code utworzyć aplikację platformy .NET Core, aby przechowywać dane i wysyłać zapytania do danych w usłudze Azure Cosmos DB.
+  ms.openlocfilehash: 9f9c7a63501752c0b2113bcb146e4c152351c429
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40447045"
+title: Tworzenie aplikacji platformy .NET Core dla usługi Azure Cosmos DB w programie Visual Studio Code
+summary: Dowiedz się, jak przy użyciu programu Visual Studio Code utworzyć aplikację bazy danych, aby przechowywać dane i wysyłać zapytania do danych w usłudze Azure Cosmos DB.
+abstract: Z tego modułu dowiesz się, jak utworzyć aplikację do przechowywania danych i wysyłania zapytań do danych w usłudze Azure Cosmos DB. W tym module pokazano, jak za pomocą zintegrowanego terminalu w programie Visual Studio Code szybko utworzyć aplikację konsolową, a następnie za pomocą rozszerzenia usługi Azure Cosmos DB dla programu Visual Studio Code dodać funkcję usługi Azure Cosmos DB.
+cardDescription: Dowiedz się, jak utworzyć aplikację, aby przechowywać dane i wysyłać zapytania do danych w usłudze Azure Cosmos DB przy użyciu programu Visual Studio Code.
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- developer
+products:
+- Azure
+units:
+- learn.cosmos-db-app-with-vscode.1-introduction
+- learn.cosmos-db-app-with-vscode.2-setup
+- learn.cosmos-db-app-with-vscode.3-crud-operations
+- learn.cosmos-db-app-with-vscode.4-query
+- learn.cosmos-db-app-with-vscode.5-javascript-programming
+achievement: learn.cosmos-db-app-with-vscode.badge

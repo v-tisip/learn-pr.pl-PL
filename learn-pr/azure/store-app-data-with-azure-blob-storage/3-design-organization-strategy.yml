@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy
+title: <span data-ttu-id="33422-101">Projektowanie strategii organizacji magazynu</span><span class="sxs-lookup"><span data-stu-id="33422-101">Design a storage organization strategy</span></span>
+metadata:
+  title: <span data-ttu-id="33422-102">Projektowanie strategii organizacji magazynu</span><span class="sxs-lookup"><span data-stu-id="33422-102">Design a storage organization strategy</span></span>
+  description: <span data-ttu-id="33422-103">Projektowanie strategii organizacji magazynu</span><span class="sxs-lookup"><span data-stu-id="33422-103">Design a storage organization strategy</span></span>
+  ms.openlocfilehash: 945f645a8711b5c1985a6b2269f5ab2dd0d32a8c
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40442604"
+durationInMinutes: 7
+content: '[!include[](includes/3-design-organization-strategy.md)]'

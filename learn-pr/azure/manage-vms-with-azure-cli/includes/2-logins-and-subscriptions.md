@@ -1,0 +1,39 @@
+<span data-ttu-id="83919-101">Zanim zaczniemy, omówmy składnię narzędzia interfejsu wiersza polecenia platformy Azure.</span><span class="sxs-lookup"><span data-stu-id="83919-101">Before we start, let's review the syntax for the Azure CLI tool.</span></span> <span data-ttu-id="83919-102">Z modułu **Sterowanie usługami platformy Azure za pomocą interfejsu wiersza polecenia platformy Azure** można dowiedzieć się, że polecenia interfejsu wiersza polecenia platformy Azure mają następującą postać:</span><span class="sxs-lookup"><span data-stu-id="83919-102">If you've taken the **Control Azure services with the Azure CLI** module, then you know that Azure CLI commands take the form of:</span></span>
+
+```azurecli
+az [command] [subcommand] [--parameter --parameter]
+```
+
+<span data-ttu-id="83919-103">Opcja `[command]` identyfikuje określony obszar platformy Azure, który chcesz kontrolować.</span><span class="sxs-lookup"><span data-stu-id="83919-103">The `[command]` identifies the specific area of Azure you want to control.</span></span> <span data-ttu-id="83919-104">Na przykład możesz zarządzać informacjami o subskrypcji za pomocą polecenia `account` lub bazami danych SQL za pomocą polecenia `sql`.</span><span class="sxs-lookup"><span data-stu-id="83919-104">For example, you can manage subscription information with the `account` command, or SQL databases with the `sql` command.</span></span> <span data-ttu-id="83919-105">Opcje `[subcommand]` i `[--parameters]` zależą wówczas od polecenia, z którym pracujesz.</span><span class="sxs-lookup"><span data-stu-id="83919-105">The `[subcommand]` and `[--parameters]` are then dependent upon the command you're working with.</span></span> 
+
+<span data-ttu-id="83919-106">Wpisując część polecenia, możesz wyświetlić listę poleceń, poleceń podrzędnych i parametrów.</span><span class="sxs-lookup"><span data-stu-id="83919-106">You can view a list of commands, subcommands, and parameters by typing in a partial command.</span></span> <span data-ttu-id="83919-107">Na przykład wpisanie polecenia `az` w wierszu polecenia spowoduje wyświetlenie ekranu pomocy najwyższego poziomu, a wpisanie polecenia `az vm` spowoduje wyświetlenie listy wszystkich poleceń podrzędnych dotyczących maszyn wirtualnych.</span><span class="sxs-lookup"><span data-stu-id="83919-107">For example, typing `az` at the command line will give you the top-level help screen, and typing `az vm` will give you all the subcommands for virtual machines.</span></span> <span data-ttu-id="83919-108">Takie podejście może być doskonałym sposobem eksplorowania narzędzia interfejsu wiersza polecenia platformy Azure.</span><span class="sxs-lookup"><span data-stu-id="83919-108">This approach can be a great way to explore the Azure CLI tool.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="83919-109">Do pracy z interfejsem wiersza polecenia platformy Azure będziemy używać usługi Azure Cloud Shell hostowanej w przeglądarce.</span><span class="sxs-lookup"><span data-stu-id="83919-109">We will be using browser-hosted Azure Cloud Shell to work with the Azure CLI.</span></span> <span data-ttu-id="83919-110">Jeśli wolisz pracować na komputerze lokalnym, wszystkie przedstawione polecenia możesz również wykonać z poziomu wiersza polecenia po [zainstalowaniu interfejsu wiersza polecenia platformy Azure](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest).</span><span class="sxs-lookup"><span data-stu-id="83919-110">If you prefer to work from your local machine, all of the commands we cover can also be executed from the command line by [installing the Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest).</span></span>
+
+## <a name="log-in-to-azure"></a><span data-ttu-id="83919-111">Zaloguj się do platformy Azure.</span><span class="sxs-lookup"><span data-stu-id="83919-111">Log in to Azure</span></span>
+
+<span data-ttu-id="83919-112">Pierwszą czynnością, jaką musisz wykonać podczas pracy z interfejsem wiersza polecenia platformy Azure, jest zalogowanie się do konta platformy Azure.</span><span class="sxs-lookup"><span data-stu-id="83919-112">The first thing you'll do when working with the Azure CLI is to log in to your Azure account.</span></span> <span data-ttu-id="83919-113">Robi się to za pomocą polecenia `login`.</span><span class="sxs-lookup"><span data-stu-id="83919-113">This is done with the `login` command.</span></span> <span data-ttu-id="83919-114">Jeśli używasz usługi Cloud Shell, zawiera ona przycisk umożliwiający zalogowanie się do platformy Azure.</span><span class="sxs-lookup"><span data-stu-id="83919-114">If you're using Cloud Shell, there will be a button to sign in to Azure.</span></span>
+
+```azurecli
+az login
+```
+
+<span data-ttu-id="83919-115">To polecenie spowoduje uruchomienie okna przeglądarki i umożliwi wybranie konta Microsoft, które ma być używane.</span><span class="sxs-lookup"><span data-stu-id="83919-115">This command will launch a browser window and allow you to select the Microsoft account you want to use.</span></span>
+
+## <a name="working-with-subscriptions"></a><span data-ttu-id="83919-116">Praca z subskrypcjami</span><span class="sxs-lookup"><span data-stu-id="83919-116">Working with subscriptions</span></span>
+
+<span data-ttu-id="83919-117">W tym module będziemy pracować w ramach tymczasowej subskrypcji utworzonej jako plac zabaw, ale zwykle będziesz używać subskrypcji z własnego konta.</span><span class="sxs-lookup"><span data-stu-id="83919-117">In this module, we will work in a temporary subscription created as a playground, but you will normally use a subscription from your own account.</span></span> <span data-ttu-id="83919-118">Jeśli masz więcej niż jedną subskrypcję, wpisując instrukcję `az account list --output table`, możesz uzyskać czytelnie sformatowaną listę subskrypcji.</span><span class="sxs-lookup"><span data-stu-id="83919-118">If you have more than one subscription, you can get a clearly formatted list of subscriptions using the `az account list --output table` statement.</span></span>
+
+```
+Name                                  CloudName    SubscriptionId                        State    IsDefault
+------------------------------------  -----------  ------------------------------------  -------  -----------
+Contoso Legacy Resources              AzureCloud   abc13b0c-d2c4-64b2-9ac5-2f4cb819b752  Enabled  True
+Visual Studio Enterprise              AzureCloud   233aebce-23c2-4572-c056-c029449e93ed  Enabled  False
+```
+
+<span data-ttu-id="83919-119">Zwróć uwagę, że polecenie identyfikuje również subskrypcję _domyślną_, w której zostaną zastosowane wszystkie Twoje polecenia.</span><span class="sxs-lookup"><span data-stu-id="83919-119">Notice that the command also identifies the _default_ subscription where all your commands will apply.</span></span> <span data-ttu-id="83919-120">Jeśli wolisz pracować w innej subskrypcji, możesz użyć polecenia `az account set --subscription "[name]"`.</span><span class="sxs-lookup"><span data-stu-id="83919-120">If you would prefer to work in a different subscription, you can use the `az account set --subscription "[name]"` command.</span></span> <span data-ttu-id="83919-121">Na przykład moglibyśmy ustawić naszą bieżącą subskrypcję na `Visual Studio Enterprise` z powyższej listy, używając następującego polecenia:</span><span class="sxs-lookup"><span data-stu-id="83919-121">For example, we could set our current subscription to be `Visual Studio Enterprise` from the above list through the following command:</span></span>
+
+```azurecli
+az account set --subscription "Visual Studio Enterprise"
+```

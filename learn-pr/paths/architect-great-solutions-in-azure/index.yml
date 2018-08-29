@@ -1,0 +1,25 @@
+### YamlMime:LearningPath
+uid: learn.architect-great-solutions-in-azure
+title: Projektuj wspaniałe rozwiązania z platformą Azure
+summary: Dowiedz się, jak projektować i tworzyć bezpieczne, skalowalne, wydajne rozwiązania na platformie Azure, sprawdzając podstawowe zasady istniejące w każdej dobrej architekturze.
+cardDescription: Dowiedz się, jak projektować i tworzyć bezpieczne, skalowalne, wydajne rozwiązania na platformie Azure, sprawdzając podstawowe zasady istniejące w każdej dobrej architekturze.
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- solutions-architect
+products:
+- Azure
+prerequisites: Brak
+metadata:
+  title: Projektuj wspaniałe rozwiązania z platformą Azure
+  description: Dowiedz się, jak projektować i tworzyć bezpieczne, skalowalne, wydajne rozwiązania na platformie Azure, sprawdzając podstawowe zasady istniejące w każdej dobrej architekturze.
+  ms.openlocfilehash: 5f46bd87a3da8267bc0f494720e95a2b69578da4
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40447337"
+modules:
+- learn.sample-module-cloudshell
+achievement: learn.architect-great-solutions-in-azure.trophy

@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.create-cosmos-db-for-scale.4-knowledge-check-what-is-a-request-unit
+metadata:
+  title: <span data-ttu-id="83633-101">Test wiedzy — co to jest jednostka żądania</span><span class="sxs-lookup"><span data-stu-id="83633-101">Knowledge check - what is a request unit</span></span>
+  description: <span data-ttu-id="83633-102">Test wiedzy — co to jest jednostka żądania</span><span class="sxs-lookup"><span data-stu-id="83633-102">Knowledge check - what is a request unit</span></span>
+  displayType: one-column
+  ms.openlocfilehash: 404c13ce6b3dd527f0411f8f939aad2633aa3785
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40442725"
+title: <span data-ttu-id="83633-103">Test wiedzy — co to jest jednostka żądania</span><span class="sxs-lookup"><span data-stu-id="83633-103">Knowledge check - what is a request unit</span></span>
+durationInMinutes: 2
+content: <span data-ttu-id="83633-104">Test wiedzy — co to jest jednostka żądania</span><span class="sxs-lookup"><span data-stu-id="83633-104">Knowledge check - what is a request unit</span></span>
+quiz:
+  title: <span data-ttu-id="83633-105">Test wiedzy — co to jest jednostka żądania</span><span class="sxs-lookup"><span data-stu-id="83633-105">Knowledge check - what is a request unit</span></span>
+  questions:
+  - content: <span data-ttu-id="83633-106">Jeżeli tworzysz konto usługi Azure Cosmos DB i chcesz się upewnić, że będzie ono rosnąć wraz z potrzebami aplikacji, to jaka jest minimalna wartość przepływności, którą należy ustawić?</span><span class="sxs-lookup"><span data-stu-id="83633-106">When you create an Azure Cosmos DB account, and you want to ensure it will grow with your application’s needs, what’s the minimum value you should set the throughput to?</span></span>
+    choices:
+    - content: <span data-ttu-id="83633-107">400 RU/s</span><span class="sxs-lookup"><span data-stu-id="83633-107">400 RU/s</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="83633-108">400 RU/s to minimalna przepływność, którą możesz ustawić dla usługi Azure Cosmos DB; jednak bazy danych utworzone z oryginalną przepływnością na poziomie 400 RU/s nie będą automatycznie skalowane.</span><span class="sxs-lookup"><span data-stu-id="83633-108">400 RU/s is the minimum throughput you can set for an Azure Cosmos DB; however, databases created with an original throughput of 400 RU/s will not autoscale.</span></span>
+    - content: <span data-ttu-id="83633-109">1000 RU/s</span><span class="sxs-lookup"><span data-stu-id="83633-109">1000 RU/s</span></span>
+      isCorrect: true
+      correctExplanation: <span data-ttu-id="83633-110">Prawidłowa odpowiedź.</span><span class="sxs-lookup"><span data-stu-id="83633-110">Correct!</span></span> <span data-ttu-id="83633-111">Przepływność na poziomie 1000 RU/s to minimalna wartość umożliwiająca automatyczne skalowanie bazy danych.</span><span class="sxs-lookup"><span data-stu-id="83633-111">A throughput of 1000 RU/s is the minimum value to enable autoscaling of your database.</span></span>
+    - content: <span data-ttu-id="83633-112">1400 RU/s</span><span class="sxs-lookup"><span data-stu-id="83633-112">1400 RU/s</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="83633-113">Ustawienie przepływności na 1400 RU/s umożliwia automatyczne skalowanie bazy danych; jednak nie jest to minimalna wartość, jaką możesz ustawić, aby włączyć automatyczne skalowanie.</span><span class="sxs-lookup"><span data-stu-id="83633-113">Setting throughput to 1400 RU/s would enable your database to autoscale; however, it's not the minimum value you could set to enable autoscaling.</span></span>
+    - content: <span data-ttu-id="83633-114">250 000 RU/s</span><span class="sxs-lookup"><span data-stu-id="83633-114">250,000 RU/s</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="83633-115">Ustawienie przepływności na 1400 RU/s umożliwia automatyczne skalowanie bazy danych; jednak nie jest to minimalna wartość, jaką możesz ustawić, aby włączyć automatyczne skalowanie.</span><span class="sxs-lookup"><span data-stu-id="83633-115">Setting throughput to 1400 RU/s would enable your database to autoscale; however, it's not the minimum value you could set to enable autoscaling.</span></span>
+  - content: <span data-ttu-id="83633-116">Jeśli planujesz zapisywanie dokumentu o rozmiarze 4 KB w bazie danych Azure Cosmos DB 100 razy na sekundę oraz odczytywanie dokumentu o rozmiarze 4 KB 500 razy na sekundę, ile jednostek żądania należy zapewnić, aby zagwarantować, że konto nie będzie mieć ograniczonej szybkości?</span><span class="sxs-lookup"><span data-stu-id="83633-116">If you plan on writing a 4-KB document to an Azure Cosmos DB database 100 times per second and reading the 4-KB document 500 times per second, how many request units should you provision to ensure your account is not rate-limited?</span></span>
+    choices:
+    - content: <span data-ttu-id="83633-117">400 RU/s</span><span class="sxs-lookup"><span data-stu-id="83633-117">400 RU/s</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="83633-118">Niestety w przypadku zapewnienia zaledwie 400 RU/s dojdzie do ograniczenia szybkości w tym scenariuszu.</span><span class="sxs-lookup"><span data-stu-id="83633-118">Sorry, you'd be rate-limited if you provisioned only 400 RU/s for this scenario.</span></span> <span data-ttu-id="83633-119">Zapoznaj się z tabelą i poszukaj dokumentu o rozmiarze 4 KB, który wymaga 500 odczytów na sekundę oraz 100 zapisów na sekundę.</span><span class="sxs-lookup"><span data-stu-id="83633-119">Take a look at the table and look for a 4-KB document that requires 500 reads per second and 100 writes per second.</span></span>
+    - content: <span data-ttu-id="83633-120">1000 RU/s</span><span class="sxs-lookup"><span data-stu-id="83633-120">1000 RU/s</span></span>
+      isCorrect: true
+      incorrectExplanation: <span data-ttu-id="83633-121">Niestety w przypadku zapewnienia zaledwie 1000 RU/s dojdzie do ograniczenia szybkości w tym scenariuszu.</span><span class="sxs-lookup"><span data-stu-id="83633-121">Sorry, you'd be rate-limited if you provisioned only 1000 RU/s for this scenario.</span></span> <span data-ttu-id="83633-122">Zapoznaj się z tabelą i poszukaj dokumentu o rozmiarze 4 KB, który wymaga 500 odczytów na sekundę oraz 100 zapisów na sekundę.</span><span class="sxs-lookup"><span data-stu-id="83633-122">Take a look at the table and look for a 4-KB document that requires 500 reads per second and 100 writes per second.</span></span>
+    - content: <span data-ttu-id="83633-123">1300 RU/s</span><span class="sxs-lookup"><span data-stu-id="83633-123">1300 RU/s</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="83633-124">Niestety w przypadku zapewnienia zaledwie 1300 RU/s dojdzie do ograniczenia szybkości w tym scenariuszu.</span><span class="sxs-lookup"><span data-stu-id="83633-124">Sorry, you'd be rate-limited if you provisioned only 1300 RU/s for this scenario.</span></span> <span data-ttu-id="83633-125">Zapoznaj się z tabelą i poszukaj dokumentu o rozmiarze 4 KB, który wymaga 500 odczytów na sekundę oraz 100 zapisów na sekundę.</span><span class="sxs-lookup"><span data-stu-id="83633-125">Take a look at the table and look for a 4-KB document that requires 500 reads per second and 100 writes per second.</span></span>
+    - content: <span data-ttu-id="83633-126">1400 RU/s</span><span class="sxs-lookup"><span data-stu-id="83633-126">1400 RU/s</span></span>
+      isCorrect: false
+      correctExplanation: <span data-ttu-id="83633-127">Prawidłowa odpowiedź.</span><span class="sxs-lookup"><span data-stu-id="83633-127">Correct!</span></span> <span data-ttu-id="83633-128">Tabela wskazuje, że w tym scenariuszu potrzebujesz minimum 1350 RU/s.</span><span class="sxs-lookup"><span data-stu-id="83633-128">The table indicates that you'd need a minimum of 1350 RU/s to support this scenario.</span></span> <span data-ttu-id="83633-129">Aby upewnić się, że nie dojdzie do ograniczenia szybkości, należy zapewnić 1400 RU/s, ponieważ potrzebujesz ponad 1350 RU/s, a jednostki żądania są zapewniane w wartościach co 100 (1300, 1400, 1500 itd.).</span><span class="sxs-lookup"><span data-stu-id="83633-129">To ensure you aren't rate limited you should provision 1400 RU/s, as you need more than 1350 RU/s and request units are provisioned in units of 100 (1300, 1400, 1500, etc.).</span></span>

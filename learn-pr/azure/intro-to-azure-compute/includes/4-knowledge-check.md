@@ -1,0 +1,1 @@
+<span data-ttu-id="b5121-101">Aby lepiej zapamiętać poznane treści, zapoznaj się z dwoma scenariuszami dotyczącymi zespołu astronomów i odpowiedź na powiązane pytania.</span><span class="sxs-lookup"><span data-stu-id="b5121-101">To help you remember what you've learned, read the two scenarios involving the astronomy team and answer the associated questions.</span></span>

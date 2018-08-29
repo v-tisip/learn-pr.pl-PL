@@ -1,0 +1,56 @@
+### YamlMime:ModuleUnit
+uid: principles-cloud-computing.6-knowledge-check
+metadata:
+  title: <span data-ttu-id="6fd67-101">Sprawdź swoją wiedzę</span><span class="sxs-lookup"><span data-stu-id="6fd67-101">Check your knowledge</span></span>
+  description: <span data-ttu-id="6fd67-102">Sprawdź swoją wiedzę</span><span class="sxs-lookup"><span data-stu-id="6fd67-102">Check your knowledge</span></span>
+  displayType: one-column
+  ms.openlocfilehash: d578a28cd23b3be60038cabb5fb899c0344219ad
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40443476"
+title: <span data-ttu-id="6fd67-103">Sprawdź swoją wiedzę</span><span class="sxs-lookup"><span data-stu-id="6fd67-103">Check your knowledge</span></span>
+durationInMinutes: 10
+content: <span data-ttu-id="6fd67-104">Zawartość jest wymagana</span><span class="sxs-lookup"><span data-stu-id="6fd67-104">Content is required</span></span>
+quiz:
+  title: <span data-ttu-id="6fd67-105">Test wiedzy</span><span class="sxs-lookup"><span data-stu-id="6fd67-105">Knowledge check</span></span>
+  questions:
+  - content: "<span data-ttu-id=\"6fd67-106\">Prawda czy fałsz: gdy korzystasz z usług dostawcy chmury publicznej, takiego jak Azure, musisz z góry ponieść całkowity koszt sprzętu fizycznego.</span><span class=\"sxs-lookup\"><span data-stu-id=\"6fd67-106\">True or false, when using a public cloud provider like Azure, you're required to pay the entire cost of the physical hardware up front?</span></span>"
+    choices:
+    - content: <span data-ttu-id="6fd67-107">True</span><span class="sxs-lookup"><span data-stu-id="6fd67-107">True</span></span>
+      incorrectExplanation: <span data-ttu-id="6fd67-108">Platforma Azure obsługuje model cenowy z płatnością zgodnie z rzeczywistym użyciem.</span><span class="sxs-lookup"><span data-stu-id="6fd67-108">Azure supports a pay-as-you-go pricing model.</span></span> <span data-ttu-id="6fd67-109">To oznacza, że wynajmujesz sprzęt i płacisz tylko za wykorzystane zasoby.</span><span class="sxs-lookup"><span data-stu-id="6fd67-109">This means that you rent the hardware and only pay for the resources that you use.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="6fd67-110">False</span><span class="sxs-lookup"><span data-stu-id="6fd67-110">False</span></span>
+      correctExplanation: <span data-ttu-id="6fd67-111">Platforma Azure obsługuje model cenowy z płatnością zgodnie z rzeczywistym użyciem.</span><span class="sxs-lookup"><span data-stu-id="6fd67-111">Azure supports a pay-as-you-go pricing model.</span></span> <span data-ttu-id="6fd67-112">To oznacza, że wynajmujesz sprzęt i płacisz tylko za wykorzystane zasoby.</span><span class="sxs-lookup"><span data-stu-id="6fd67-112">This means that you rent the hardware and only pay for the resources that you use.</span></span>
+      isCorrect: true
+  - content: <span data-ttu-id="6fd67-113">Załóżmy, że ruch do Twojej witryny internetowej znacznie się zwiększył przez noc.</span><span class="sxs-lookup"><span data-stu-id="6fd67-113">Suppose your website had a spike in traffic overnight.</span></span> <span data-ttu-id="6fd67-114">Gdy korzystasz z usług dostawcy chmury publicznej, takiego jak Azure, mogła nie wystąpić żadna przerwa w działaniu witryny, ponieważ witryna automatycznie skalowała swoje zasoby.</span><span class="sxs-lookup"><span data-stu-id="6fd67-114">Using a public cloud provider like Azure, it's possible that your website experienced no down time because it automatically scaled its resources.</span></span>
+    choices:
+    - content: <span data-ttu-id="6fd67-115">True</span><span class="sxs-lookup"><span data-stu-id="6fd67-115">True</span></span>
+      correctExplanation: <span data-ttu-id="6fd67-116">Przetwarzanie w chmurze jest uznawane za elastyczne.</span><span class="sxs-lookup"><span data-stu-id="6fd67-116">Cloud computing is considered elastic.</span></span> <span data-ttu-id="6fd67-117">To oznacza, że można automatycznie przydzielać zasoby i cofać ich przydział w zależności od potrzeb.</span><span class="sxs-lookup"><span data-stu-id="6fd67-117">This means that resources can automatically be allocated or deallocated based on demand.</span></span>
+      isCorrect: true
+    - content: <span data-ttu-id="6fd67-118">False</span><span class="sxs-lookup"><span data-stu-id="6fd67-118">False</span></span>
+      incorrectExplanation: <span data-ttu-id="6fd67-119">Przetwarzanie w chmurze jest uznawane za elastyczne.</span><span class="sxs-lookup"><span data-stu-id="6fd67-119">Cloud computing is considered elastic.</span></span> <span data-ttu-id="6fd67-120">To oznacza, że można automatycznie przydzielać zasoby i cofać ich przydział w zależności od potrzeb.</span><span class="sxs-lookup"><span data-stu-id="6fd67-120">This means that resources can automatically be allocated or deallocated based on demand.</span></span>
+      isCorrect: false
+  - content: <span data-ttu-id="6fd67-121">Załóżmy, że przenosisz się do chmury i chcesz uzyskać wysoką skalowalność oraz korzystać z wypożyczonego sprzętu, a bezpieczeństwo nie jest bardzo istotne.</span><span class="sxs-lookup"><span data-stu-id="6fd67-121">Suppose you're moving to the cloud and you want high scalability, rented hardware, and security is not a big concern.</span></span> <span data-ttu-id="6fd67-122">Którego modelu wdrożenia chmury najlepiej użyć?</span><span class="sxs-lookup"><span data-stu-id="6fd67-122">Which cloud deployment model is best to use?</span></span>
+    choices:
+    - content: <span data-ttu-id="6fd67-123">Chmura publiczna</span><span class="sxs-lookup"><span data-stu-id="6fd67-123">Public cloud</span></span>
+      correctExplanation: <span data-ttu-id="6fd67-124">Chmura publiczna należy do dostawcy chmury innej firmy i jest przez niego obsługiwana, co zapewnia korzyści w postaci skalowalności i wynajętego sprzętu.</span><span class="sxs-lookup"><span data-stu-id="6fd67-124">A public cloud is owned and operated by a third-party cloud provider, which offers the benefits of scalability and rented hardware.</span></span> <span data-ttu-id="6fd67-125">Ponieważ sprzęt nie należy do Ciebie, nie masz kontroli nad tym, kto ma do niego fizyczny dostęp.</span><span class="sxs-lookup"><span data-stu-id="6fd67-125">Since the hardware is not owned by you, you can't control who has physical access to it.</span></span>
+      isCorrect: true
+    - content: <span data-ttu-id="6fd67-126">Chmura prywatna</span><span class="sxs-lookup"><span data-stu-id="6fd67-126">Private cloud</span></span>
+      incorrectExplanation: <span data-ttu-id="6fd67-127">Głównym powodem, dla którego warto wybrać chmurę prywatną, jest bezpieczeństwo.</span><span class="sxs-lookup"><span data-stu-id="6fd67-127">A primary reason to choose a private cloud is security.</span></span> <span data-ttu-id="6fd67-128">W przypadku chmury prywatnej sprzęt zwykle należy do Ciebie i jest obsługiwany lokalnie.</span><span class="sxs-lookup"><span data-stu-id="6fd67-128">With a private cloud, hardware is typically owned and operated on-premises.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="6fd67-129">Chmura hybrydowa</span><span class="sxs-lookup"><span data-stu-id="6fd67-129">Hybrid cloud</span></span>
+      incorrectExplanation: <span data-ttu-id="6fd67-130">Chmura hybrydowa to połączenie chmury publicznej i prywatnej.</span><span class="sxs-lookup"><span data-stu-id="6fd67-130">A hybrid cloud is a public and private cloud combined.</span></span> <span data-ttu-id="6fd67-131">Ponieważ bezpieczeństwo nie jest dla Ciebie istotne, nie trzeba przenosić niczego do chmury prywatnej.</span><span class="sxs-lookup"><span data-stu-id="6fd67-131">Since security is not a concern of yours, there's no need to move anything to the private cloud.</span></span>
+      isCorrect: false
+  - content: <span data-ttu-id="6fd67-132">Załóżmy, że tworzysz aplikację i chcesz ją jak najszybciej dostarczyć do użytkowników.</span><span class="sxs-lookup"><span data-stu-id="6fd67-132">Suppose you're building an application and you want to get it to your users as fast as possible.</span></span> <span data-ttu-id="6fd67-133">Nie chcesz martwić się o zarządzanie podstawowym sprzętem ani oprogramowaniem. Wolisz skupić się na tworzeniu, testowaniu i wdrażaniu.</span><span class="sxs-lookup"><span data-stu-id="6fd67-133">You don't want to worry about managing the underlying hardware or software, you just want to focus on building, testing, and deploying.</span></span> <span data-ttu-id="6fd67-134">Który typ usługi w chmurze jest dla Ciebie najlepszy?</span><span class="sxs-lookup"><span data-stu-id="6fd67-134">Which cloud service type is best for you?</span></span>
+    choices:
+    - content: <span data-ttu-id="6fd67-135">Infrastruktura jako usługa</span><span class="sxs-lookup"><span data-stu-id="6fd67-135">Infrastructure as a service</span></span>
+      incorrectExplanation: <span data-ttu-id="6fd67-136">W przypadku infrastruktury jako usługi odpowiedzialność za zarządzanie sprzętem i oprogramowaniem ciąży na Tobie.</span><span class="sxs-lookup"><span data-stu-id="6fd67-136">With infrastructure as a service, you're responsible for managing the hardware and software.</span></span> <span data-ttu-id="6fd67-137">Obejmuje to również takie zadania, jak wykonywanie aktualizacji systemu na maszynach wirtualnych.</span><span class="sxs-lookup"><span data-stu-id="6fd67-137">This includes tasks like performing system updates on virtual machines.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="6fd67-138">Platforma jako usługa</span><span class="sxs-lookup"><span data-stu-id="6fd67-138">Platform as a service</span></span>
+      correctExplanation: <span data-ttu-id="6fd67-139">Celem platformy jako usługi jest pomoc w jak najszybszym utworzeniu aplikacji.</span><span class="sxs-lookup"><span data-stu-id="6fd67-139">The goal of platform as a service is to help you create an application as fast as possible.</span></span> <span data-ttu-id="6fd67-140">Zadania zarządzania infrastrukturą IT są wykonywane za Ciebie, dzięki czemu możesz skupić się na pisaniu kodu.</span><span class="sxs-lookup"><span data-stu-id="6fd67-140">The IT management tasks are done for you, so you can focus on writing code.</span></span>
+      isCorrect: true
+    - content: <span data-ttu-id="6fd67-141">Oprogramowanie jako usługa</span><span class="sxs-lookup"><span data-stu-id="6fd67-141">Software as a service</span></span>
+      incorrectExplanation: <span data-ttu-id="6fd67-142">W przypadku oprogramowania jako usługi istniejąca aplikacja jest używana za pośrednictwem przeglądarki internetowej lub aplikacji programowej.</span><span class="sxs-lookup"><span data-stu-id="6fd67-142">With software as a service, you use an existing application through a web browser or software application.</span></span>
+      isCorrect: false

@@ -1,0 +1,34 @@
+### YamlMime:Module
+uid: learn.azure-services-features
+metadata:
+  title: Poznawanie usług i funkcji platformy Azure
+  description: 'Pierwszym krokiem podczas korzystania z platformy Azure jest utworzenie konta. Na koncie przechowywane są aprowizowane usługi platformy Azure oraz ustawienia osobiste, takie jak ustawienia tożsamości i rozliczeń oraz preferencje. Po utworzeniu konta możesz przeglądać dostępne usługi w witrynie Azure Portal i tworzyć wystąpienia usług wymaganych przez Twoją aplikację. W tym module przeprowadzimy Cię przez proces rozpoczynania pracy: utworzysz konto platformy Azure, zalogujesz się w witrynie Azure Portal i przećwiczysz tworzenie kilku typowych zasobów.'
+  ms.openlocfilehash: a394343c38acc09385e562e58d2cef66b268a1a5
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40448204"
+title: Poznawanie usług i funkcji platformy Azure
+summary: Utwórz konto platformy Azure, poznaj dostępne usługi i dostosuj witrynę Azure Portal.
+abstract: 'Pierwszym krokiem podczas korzystania z platformy Azure jest utworzenie konta. Na koncie przechowywane są aprowizowane usługi platformy Azure oraz ustawienia osobiste, takie jak ustawienia tożsamości i rozliczeń oraz preferencje. Po utworzeniu konta możesz przeglądać dostępne usługi w witrynie Azure Portal i tworzyć wystąpienia usług wymaganych przez Twoją aplikację. W tym module przeprowadzimy Cię przez proces rozpoczynania pracy: utworzysz konto platformy Azure, zalogujesz się w witrynie Azure Portal i przećwiczysz tworzenie kilku typowych zasobów.'
+cardDescription: Utwórz konto platformy Azure, poznaj dostępne usługi i dostosuj witrynę Azure Portal.
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- intermediate
+roles:
+- developer
+products:
+- Azure
+units:
+- learn.azure-services-features.1-introduction
+- learn.azure-services-features.2-tour-of-azure-services
+- learn.azure-services-features.3-create-an-azure-account
+- learn.azure-services-features.4-exercise-create-an-azure-account
+- learn.azure-services-features.5-navigate-the-portal
+- learn.azure-services-features.6-exercise-work-with-blades
+- learn.azure-services-features.7-exercise-navigate-the-portal
+- learn.azure-services-features.8-customize-the-dashboard
+- learn.azure-services-features.9-exercise-customize-the-dashboard
+- learn.azure-services-features.10-summary
+achievement: learn.azure-services-features.badge

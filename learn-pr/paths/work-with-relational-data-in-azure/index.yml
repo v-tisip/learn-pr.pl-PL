@@ -1,0 +1,25 @@
+### YamlMime:LearningPath
+uid: learn.work-with-relational-data-in-azure
+title: Praca z danymi relacyjnymi na platformie Azure
+summary: Platforma Azure obsługuje kilka popularnych rozwiązań baz danych opartych na platformie SQL, między innymi programy SQL Server, PostgreSQL i MySQL. Dowiedz się, jak za pomocą tych rozwiązań dotyczących danych przedsiębiorstwa na platformie Azure przechowywać i pobierać dane aplikacji w chmurze.
+cardDescription: Platforma Azure obsługuje kilka popularnych rozwiązań baz danych opartych na platformie SQL, między innymi programy SQL Server, PostgreSQL i MySQL. Dowiedz się, jak za pomocą tych rozwiązań dotyczących danych przedsiębiorstwa na platformie Azure przechowywać i pobierać dane aplikacji w chmurze.
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- intermediate
+roles:
+- developer
+products:
+- Azure
+prerequisites: Brak
+metadata:
+  title: Praca z danymi relacyjnymi na platformie Azure
+  description: Platforma Azure obsługuje kilka popularnych rozwiązań baz danych opartych na platformie SQL, między innymi programy SQL Server, PostgreSQL i MySQL. Dowiedz się, jak za pomocą tych rozwiązań dotyczących danych przedsiębiorstwa na platformie Azure przechowywać i pobierać dane aplikacji w chmurze.
+  ms.openlocfilehash: 6141b4692e32f9a7adc606b8d5ca6ddf39900628
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: pl-PL
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40449243"
+modules:
+- learn.sample-module-cloudshell
+achievement: learn.work-with-relational-data-in-azure.trophy
