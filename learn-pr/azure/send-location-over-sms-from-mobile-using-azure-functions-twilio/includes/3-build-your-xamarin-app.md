@@ -219,7 +219,7 @@ Pełny kod tej strony znajduje się poniżej.
 
 Uruchom aplikację, aby zobaczyć nowy interfejs użytkownika. Jeśli chcesz teraz zweryfikować powiązania, możesz to zrobić, dodając punkty przerwania do właściwości lub metody `SendLocation`.
 
-![Interfejs użytkownika nowej aplikacji](../media/3-new-ui.png)
+![Interfejs użytkownika nowej aplikacji](../media-drafts/3-new-ui.png)
 
 ## <a name="summary"></a>Podsumowanie
 

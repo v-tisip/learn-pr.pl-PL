@@ -8,7 +8,7 @@ Wszystkie platformy mobilne zapewniają zabezpieczenia informacji o użytkowniku
 
 2. Przejdź do karty **Możliwości** i sprawdź możliwość *Lokalizacja*.
 
-    ![Karta możliwości platformy uniwersalnej systemu Windows](../media/4-uwp-location-capability.png)
+    ![Karta możliwości platformy uniwersalnej systemu Windows](../media-drafts/4-uwp-location-capability.png)
 
 > Aby aplikacja obsługiwała system Android lub iOS, uprawnienia muszą być skonfigurowane inaczej. Opisano to szczegółowo w [dokumentacji funkcji geolokalizacji pakietu Xamarin.Essentials](https://docs.microsoft.com/xamarin/essentials/geolocation?tabs=android#getting-started).
 
@@ -49,7 +49,7 @@ async Task SendLocation()
 
 Uruchom aplikację i kliknij przycisk **Send Location** (Wyślij lokalizację), aby wyświetlić lokalizację w interfejsie użytkownika.
 
-![Działająca aplikacja z wyświetloną lokalizacją użytkownika](../media/4-running-app-showing-location.png)
+![Działająca aplikacja z wyświetloną lokalizacją użytkownika](../media-drafts/4-running-app-showing-location.png)
 
 > Ta aplikacja korzysta z ostatniej znanej lokalizacji. W aplikacji przeznaczonej dla środowiska produkcyjnego warto spróbować uzyskać bieżącą dokładną lokalizację, a w przypadku niemożności jej pobrania w ustalonym czasie — skorzystać z ostatniej znanej lokalizacji. Sposób zaimplementowania tego podejścia opisano w [dokumentacji funkcji geolokalizacji pakietu Xamarin.Essentials](https://docs.microsoft.com/xamarin/essentials/geolocation?tabs=uwp#using-geolocation). W tej aplikacji nie zaimplementowano obsługi błędów. W aplikacji przeznaczonej dla środowiska produkcyjnego należy zaimplementować obsługę wszystkich występujących wyjątków, na przykład wyjątku zgłoszonego w przypadku niedostępności lokalizacji.
 

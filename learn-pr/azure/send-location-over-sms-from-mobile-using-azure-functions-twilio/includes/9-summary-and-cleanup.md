@@ -10,17 +10,17 @@ Po zakończeniu pracy z tą aplikacją usługi Azure Functions można usunąć w
 
 3. Rozwiń subskrypcję, która była używana do utworzenia tej grupy zasobów. Kliknij prawym przyciskiem myszy grupę zasobów „ImHere”, a następnie wybierz pozycję *Otwórz w portalu*.
 
-    ![Otwieranie grupy zasobów w portalu z okna eksploratora chmury](../media/9-open-resource-group-in-portal.png)
+    ![Otwieranie grupy zasobów w portalu z okna eksploratora chmury](../media-drafts/9-open-resource-group-in-portal.png)
 
 4. W razie potrzeby zaloguj się do witryny Azure Portal w przeglądarce.
 
 5. Portal otworzy się na grupie zasobów „ImHere”. Kliknij przycisk **Usuń grupę zasobów**.
 
-    ![Usuwanie grupy zasobów](../media/9-delete-resource-group.png)
+    ![Usuwanie grupy zasobów](../media-drafts/9-delete-resource-group.png)
 
 6. Wprowadź nazwę grupy zasobów, aby potwierdzić usunięcie, a następnie kliknij przycisk **Usuń**.
 
-    ![Wprowadzanie nazwy grupy zasobów, aby potwierdzić usunięcie](../media/9-confirm-delete-resource-group.png)
+    ![Wprowadzanie nazwy grupy zasobów, aby potwierdzić usunięcie](../media-drafts/9-confirm-delete-resource-group.png)
 
 ## <a name="summary"></a>Podsumowanie
 

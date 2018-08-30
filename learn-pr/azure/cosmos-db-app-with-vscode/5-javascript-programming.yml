@@ -5,12 +5,12 @@ metadata:
   description: Dowiedz się, jak tworzyć, rejestrować i uruchamiać procedury składowane usługi Azure Cosmos DB na potrzeby złożonych operacji z poziomu aplikacji przy użyciu platformy .NET Core.
   displayType: one-column
   interactive: azureportal
-  ms.openlocfilehash: 16eb208142e7d6be393e483ca70e980fa765a200
-  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.openlocfilehash: cfc80b557f81e6606734308e53b5a5ee72539bd6
+  ms.sourcegitcommit: 92580185df76595daa4cf68a5311019c85fe7bf3
   ms.translationtype: HT
   ms.contentlocale: pl-PL
-  ms.lasthandoff: 08/22/2018
-  ms.locfileid: "40444555"
+  ms.lasthandoff: 08/24/2018
+  ms.locfileid: "42873403"
 title: Tworzenie i uruchamianie procedur składowanych z poziomu aplikacji
 durationInMinutes: 10
 content: >
@@ -20,12 +20,10 @@ tasks:
   environment: azure
   hint: Upewnij się, że masz procedurę składowaną o nazwie „UpdateOrderTotal”.
   azure:
-    resourceGroup: myResourceGroup
     location: eastus
 - action: exists
   environment: azure
   azure:
-    resourceGroup: groupA
     resource:
       type: Microsoft.Storage/storageAccounts
       name: docsproxyppea427

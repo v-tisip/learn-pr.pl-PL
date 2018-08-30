@@ -14,7 +14,7 @@ Tworzona przez Ciebie aplikacja to międzyplatformowa aplikacja mobilna komuniku
 
 5. Kliknij przycisk **OK**.
 
-    ![Okno dialogowe Nowe rozwiązanie](../media/2-new-solution-dialog.png)
+    ![Okno dialogowe Nowe rozwiązanie](../media-drafts/2-new-solution-dialog.png)
 
 6. Z okna dialogowego **Nowa aplikacja międzyplatformowa** wybierz szablon *Pusta aplikacja*.
 
@@ -26,7 +26,7 @@ Tworzona przez Ciebie aplikacja to międzyplatformowa aplikacja mobilna komuniku
 
 9. Kliknij przycisk **OK**.
 
-    ![Okno dialogowe konfigurowania nowego rozwiązania](../media/2-configure-solution-dialog.png)
+    ![Okno dialogowe konfigurowania nowego rozwiązania](../media-drafts/2-configure-solution-dialog.png)
 
 Program Visual Studio utworzy dwa projekty — aplikację UWP o nazwie `ImHere.UWP` i bibliotekę platformy .NET Standard o nazwie `ImHere`. Aplikacje platformy Xamarin.Forms składają się z dwóch części — co najmniej jeden projekt aplikacji specyficzny dla platformy i co najmniej jedna biblioteka platformy .NET Standard. Projekty aplikacji specyficzne dla platformy zawierają kod specyficzny dla platformy wymagany do uruchomienia na niej aplikacji. Te projekty następnie uruchamiają aplikację platformy Xamarin.Forms, która jest zdefiniowana w międzyplatformowej bibliotece platformy .NET Standard. Aplikację kompiluje się do kodu międzyplatformowego, a w czasie wykonywania wszelkie utworzone interfejsy użytkownika są tłumaczone na odpowiednie składniki interfejsu użytkownika specyficzne dla platformy.
 
@@ -44,7 +44,7 @@ Platformy UWP, Android i iOS udostępniają wiele podobnych możliwości, które
 
 5. Kliknij przycisk **Instaluj**, aby zainstalować pakiet NuGet. Musisz zaakceptować licencję, aby kontynuować.
 
-    ![Dodawanie pakietu NuGet Xamarin.Essentials do wszystkich projektów w rozwiązaniu](../media/2-add-essentials-nuget.png)
+    ![Dodawanie pakietu NuGet Xamarin.Essentials do wszystkich projektów w rozwiązaniu](../media-drafts/2-add-essentials-nuget.png)
 
     > Jeśli korzystasz z tego modułu w środowisku lokalnym, a platformą docelową ma być system Android, musisz przeprowadzić dodatkową konfigurację. Aby uzyskać więcej informacji, zobacz [Wprowadzenie do platformy Xamarin.Essentials](https://docs.microsoft.com/xamarin/essentials/get-started?context=xamarin%2Fios&tabs=windows%2Candroid).
 
@@ -54,11 +54,11 @@ Platformy UWP, Android i iOS udostępniają wiele podobnych możliwości, które
 
 2. Ustaw konfigurację kompilacji na **Debugowanie**, platformę na **x86**, a urządzenie na potrzeby uruchamiania na **Komputer lokalny**.
 
-    ![Ustawianie konfiguracji debugowania dla architektury x86 pod kątem uruchamiania na urządzeniu lokalnym](../media/2-debug-configuration.png)
+    ![Ustawianie konfiguracji debugowania dla architektury x86 pod kątem uruchamiania na urządzeniu lokalnym](../media-drafts/2-debug-configuration.png)
 
 3. Rozpocznij debugowanie aplikacji.
 
-    ![Uruchomiona aplikacja](../media/2-debuging-app.png)
+    ![Uruchomiona aplikacja](../media-drafts/2-debuging-app.png)
 
 ## <a name="summary"></a>Podsumowanie
 

@@ -8,11 +8,11 @@ W tym momencie aplikacja pracuje nad uzyskaniem lokalizacji użytkownika i jest 
 
 3. Nadaj projektowi nazwę „ImHere.Functions”, a następnie kliknij przycisk **OK**.
 
-    ![Okno dialogowe Dodaj nowy projekt](../media/5-add-new-functions-project.png)
+    ![Okno dialogowe Dodaj nowy projekt](../media-drafts/5-add-new-functions-project.png)
 
 4. W oknie dialogowym konfiguracji **Nowy projekt** jako ustawienie wersji usługi Functions zostaw *Azure Functions v1 (.NET Framework)*. Wybierz pozycję *Wyzwalacz protokołu HTTP*, jako ustawienie konta magazynu zostaw *Emulator magazynu*, a następnie ustaw uprawnienia dostępu na *Anonimowy*. Następnie kliknij przycisk **OK**.
 
-    ![Okno dialogowe konfiguracji projektu usługi Azure Functions](../media/5-configure-trigger.png)
+    ![Okno dialogowe konfiguracji projektu usługi Azure Functions](../media-drafts/5-configure-trigger.png)
 
 Zostanie utworzony nowy projekt z domyślną funkcją o nazwie `Function1`.
 
@@ -52,7 +52,7 @@ Dane są przesyłane do funkcji platformy Azure w formacie JSON. Aplikacja mobil
 
 3. Nadaj projektowi nazwę „ImHere.Data”, a następnie kliknij przycisk **OK**.
 
-    ![Okno dialogowe Dodaj nowy projekt](../media/5-add-new-net-standard-project.png)
+    ![Okno dialogowe Dodaj nowy projekt](../media-drafts/5-add-new-net-standard-project.png)
 
 4. Usuń wygenerowany automatycznie plik „Class1.cs”.
 
@@ -71,7 +71,7 @@ Dane są przesyłane do funkcji platformy Azure w formacie JSON. Aplikacja mobil
 
 7. Dodaj odwołanie do tego projektu do obu projektów (`ImHere.Functions` i `ImHere`), klikając projekt prawym przyciskiem myszy, a następnie wybierając pozycję *Dodaj -> Odwołanie*. W drzewie po lewej stronie wybierz pozycję *Projekty*, a następnie zaznacz pole wyboru obok pozycji *ImHere.Data*.
 
-    ![Konfigurowanie odwołań do projektu](../media/5-configure-project-references.png)
+    ![Konfigurowanie odwołań do projektu](../media-drafts/5-configure-project-references.png)
 
 ## <a name="read-the-data-sent-to-the-function"></a>Odczytywanie danych wysłanych do funkcji
 
@@ -127,7 +127,7 @@ Funkcje można uruchamiać lokalnie za pomocą lokalnego konta magazynu i lokaln
 
 2. Z menu *Debuguj* wybierz pozycję *Uruchom bez debugowania*. Lokalne środowisko uruchomieniowe usługi Azure Functions zostanie uruchomione w oknie konsoli i uruchomi funkcję, nasłuchując na dostępnym porcie na komputerze `localhost`.
 
-    ![Funkcja platformy Azure uruchomiona w środowisku lokalnym](../media/5-function-running-locally.png)
+    ![Funkcja platformy Azure uruchomiona w środowisku lokalnym](../media-drafts/5-function-running-locally.png)
 
 3. Zanotuj numer portu, na którym nasłuchuje funkcja. Będzie on potrzebny w następnym rozdziale do przetestowania aplikacji mobilnej. Na powyższej ilustracji funkcja nasłuchuje na porcie **7071**.
 

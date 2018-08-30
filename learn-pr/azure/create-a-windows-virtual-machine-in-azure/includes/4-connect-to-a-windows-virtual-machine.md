@@ -20,7 +20,7 @@ Istnieją również klienci systemu Linux typu open source, tacy jak Remmina, um
 
 System Windows 10 zawiera klienta RDP.
 
-![Klient RDP systemu Windows](../images/2-rdp-client.PNG)
+![Klient RDP systemu Windows](../media-drafts/4-rdp-client.PNG)
 
 ## <a name="what-functionality-does-an-rdp-connection-support"></a>Jakie funkcje obsługuje połączenie za pomocą protokołu RDP?
 

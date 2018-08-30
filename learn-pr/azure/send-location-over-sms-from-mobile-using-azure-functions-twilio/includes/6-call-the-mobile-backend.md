@@ -96,7 +96,7 @@ async Task SendLocation()
 
 2. Ustaw aplikację platformy uniwersalnej systemu Windows jako aplikację startową i uruchom ją. Kliknij przycisk **Wyślij lokalizację**. W oknie konsoli środowiska uruchomieniowego usługi Functions zostaną wyświetlone dane wyjściowe zawierające wywoływaną funkcję oraz zarejestrowane dane przedstawiające wygenerowany adres URL.
 
-    ![Dane wyjściowe wywoływanej funkcji](../media/6-function-called.png)
+    ![Dane wyjściowe wywoływanej funkcji](../media-drafts/6-function-called.png)
 
 3. Aby przetestować generowanie adresu URL, wklej go z poziomu konsoli do przeglądarki. Powinna zostać wyświetlona Twoja bieżąca lokalizacja.
 

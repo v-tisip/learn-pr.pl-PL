@@ -33,7 +33,7 @@ Wysyłanie wiadomości SMS za pośrednictwem usługi Twilio wymaga powiązania w
 
     Podczas tworzenia konta usługi Twilio jest przypisywany numer telefonu, z którego można wysyłać wiadomości. Ten numer telefonu możesz znaleźć na pulpicie nawigacyjnym **Phone Numbers** (Numery telefonów) usługi Twilio. W witrynie usługi Twilio wybierz wielokropek u dołu menu po lewej stronie. Następnie wybierz pozycję *SUPER NETWORK->Phone Numbers* (Sieć SUPER->Numery telefonów). Możesz przypiąć ten pulpit nawigacyjny do menu po lewej stronie przy użyciu ikony pinezki. Twój numer Twilio będzie wyświetlony w obszarze *Manage Numbers->Active Numbers* (Zarządzaj numerami->Numery aktywne). Należy usunąć wszystkie spacje z numeru.
 
-    ![Znajdowanie swojego numeru w usłudze Twilio](../media/7-twilio-find-number.png)
+    ![Znajdowanie swojego numeru w usłudze Twilio](../media-drafts/7-twilio-find-number.png)
 
     ```cs
     [TwilioSms(AccountSidSetting = "TwilioAccountSid",
@@ -130,15 +130,15 @@ public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLeve
 
 4. Kliknij przycisk **Send Location** (Wyślij lokalizację). Jeśli wiadomość SMS została wysłana pomyślnie, zobaczysz w aplikacji platformy Xamarin.Forms komunikat „Location sent successfully” („Lokalizacja została wysłana pomyślnie”).
 
-    ![Aplikacja platformy Xamarin.Forms pokazująca lokalizację jako wysłaną](../media/7-ui-location-sent.png)
+    ![Aplikacja platformy Xamarin.Forms pokazująca lokalizację jako wysłaną](../media-drafts/7-ui-location-sent.png)
 
 5. W dziennikach konsoli funkcji platformy Azure zobaczysz, że wiadomość została utworzona i wysyłana. Jeśli wystąpią jakiekolwiek błędy (takie jak niepoprawny format numeru), zostaną zarejestrowane tutaj.
 
-    ![Konsola funkcji platformy Azure pokazująca, że wiadomość została wysłana](../media/7-function-message-sent.png)
+    ![Konsola funkcji platformy Azure pokazująca, że wiadomość została wysłana](../media-drafts/7-function-message-sent.png)
 
 6. Sprawdź na telefonie, czy nadeszła wiadomość. Użyj linku w wiadomości, aby wyświetlić swoją lokalizację.
 
-    ![Wiadomość SMS odebrana na telefonie komórkowym](../media/7-message-received.png)
+    ![Wiadomość SMS odebrana na telefonie komórkowym](../media-drafts/7-message-received.png)
 
 ## <a name="summary"></a>Podsumowanie
 

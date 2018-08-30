@@ -23,7 +23,7 @@ Tę korzyść można stosować, nawet jeśli zasób platformy Azure jest aktywny
 
 ### <a name="azure-sql-database-vcore-based-options"></a>Oparte na rdzeniach wirtualnych opcje usługi Azure SQL Database
 
-![Obrót licencjami programu SQL Server](../images/sql-tradein-value.jpg)
+![Obrót licencjami programu SQL Server](../media-drafts/5-sql-tradein-value.jpg)
 
 W przypadku usługi Azure SQL Database korzyść użycia hybrydowego platformy Azure działa w następujący sposób:
 
@@ -47,7 +47,7 @@ Poniżej przedstawiono kompletne szczegóły poszczególnych ofert. Jeśli jeste
 
 Jeśli jesteś klientem w ramach umowy Enterprise Agreement i masz już inwestycję w licencje programu SQL Server, które zostały zwolnione jako część procesu przenoszenia zasobów na platformę Azure, możesz aprowizować obrazy modelu **bring your own license** (BYOL) z witryny Azure Marketplace. Umożliwi Ci to skorzystanie z nieużywanych licencji i zmniejszy koszt maszyny wirtualnej platformy Azure. Taka możliwość zawsze istniała — trzeba było aprowizować maszynę wirtualną z systemem Windows i ręcznie zainstalować program SQL Server. Teraz proces ten jest uproszczony dzięki użyciu certyfikowanych obrazów firmy Microsoft. Wyszukaj pozycję **BYOL** w portalu Marketplace w celu znalezienia tych obrazów.
 
-![Model BYOL dla programu SQL Server na platformie Azure](../images/byol-sql-server.png)
+![Model BYOL dla programu SQL Server na platformie Azure](../media-drafts/5-byol-sql-server.png)
 
 > [!IMPORTANT]
 > Do używania certyfikowanych obrazów BYOL jest wymagana subskrypcja Enterprise Agreement.

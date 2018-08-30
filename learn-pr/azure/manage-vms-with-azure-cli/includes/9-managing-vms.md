@@ -11,7 +11,7 @@ az vm stop -n SampleVM -g ExerciseResources
 Możemy sprawdzić, czy została ona zatrzymana, próbując wysłać polecenie ping do publicznego adresu IP, przy użyciu elementu `ssh` lub polecenia `vm get-instance-view`. To końcowe podejście powoduje zwrócenie tych samych danych podstawowych jako `vm show`, ale obejmuje szczegółowe informacje o samym wystąpieniu. Spróbuj wpisać poniższe polecenie w usłudze Azure Cloud Shell, aby wyświetlić bieżący stan działania maszyny wirtualnej:
 
 ```azurecli
-az vm get-instance-view -n SampleVM -g ExerciseResources --query "instanceView.statuses[?starts_with(code, 'PowerState/') == `true`].displayStatus" -o tsv
+az vm get-instance-view -n SampleVM -g ExerciseResources --query "instanceView.statuses[?starts_with(code, 'PowerState/')].displayStatus" -o tsv
 ```
 
 To polecenie powinno zwrócić wynik `VM stopped`.

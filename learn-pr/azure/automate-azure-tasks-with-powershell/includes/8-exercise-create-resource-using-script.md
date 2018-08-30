@@ -44,7 +44,7 @@ Wykonaj następujące kroki, aby napisać skrypt:
 7. Następnie utwórz maszynę wirtualną przy użyciu zmiennej `$vmName`:
 
    ```powershell
-   New-AzureRmVm -ResourceGroupName $resourceGroup -Name $vmName -Credential $adminCredential -Location "East US" 
+   New-AzureRmVm -ResourceGroupName $resourceGroup -Name $vmName -Credential $adminCredential -Location "East US" -Image UbuntuLTS
    ```
 
 8. Zapisz plik.
