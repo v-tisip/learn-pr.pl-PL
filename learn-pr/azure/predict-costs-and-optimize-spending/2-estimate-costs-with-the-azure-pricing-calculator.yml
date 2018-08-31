@@ -4,13 +4,13 @@ title: Szacowanie kosztów przy użyciu kalkulatora cen platformy Azure
 metadata:
   title: Szacowanie kosztów przy użyciu kalkulatora cen platformy Azure
   description: W tym rozdziale omówimy sposób szacowania kosztów za pomocą kalkulatora cen platformy Azure
-  ms.openlocfilehash: 8667c62411c9155d1bb116dd36da0014f038e15b
-  ms.sourcegitcommit: d40bff88f60d5ddb3d875f788cafdd0c40069f23
+  ms.openlocfilehash: 93d01958a958e008fac17214db8496b8f9dded03
+  ms.sourcegitcommit: 81cb0c300be030565fb0b7c5b57413c4a2aa5410
   ms.translationtype: HT
   ms.contentlocale: pl-PL
-  ms.lasthandoff: 08/22/2018
-  ms.locfileid: "42614519"
-durationInMinutes: 15
+  ms.lasthandoff: 08/28/2018
+  ms.locfileid: "43141740"
+durationInMinutes: 20
 content: >
   [!include[](includes/2-estimate-costs-with-the-azure-pricing-calculator.md)]
 quiz:
