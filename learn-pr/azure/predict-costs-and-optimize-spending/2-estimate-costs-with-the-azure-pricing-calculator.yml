@@ -1,34 +1,34 @@
 ### YamlMime:ModuleUnit
 uid: learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator
-title: <span data-ttu-id="c993f-101">Szacowanie kosztów przy użyciu kalkulatora cen platformy Azure</span><span class="sxs-lookup"><span data-stu-id="c993f-101">Estimate costs with the Azure pricing calculator</span></span>
+title: <span data-ttu-id="e2288-101">Szacowanie kosztów przy użyciu kalkulatora cen platformy Azure</span><span class="sxs-lookup"><span data-stu-id="e2288-101">Estimate costs with the Azure pricing calculator</span></span>
 metadata:
-  title: <span data-ttu-id="c993f-102">Szacowanie kosztów przy użyciu kalkulatora cen platformy Azure</span><span class="sxs-lookup"><span data-stu-id="c993f-102">Estimate costs with the Azure pricing calculator</span></span>
-  description: <span data-ttu-id="c993f-103">W tym rozdziale omówimy sposób szacowania kosztów za pomocą kalkulatora cen platformy Azure</span><span class="sxs-lookup"><span data-stu-id="c993f-103">In this unit, we'll discuss how to estimate costs with the Azure pricing calculator</span></span>
-  ms.openlocfilehash: 8667c62411c9155d1bb116dd36da0014f038e15b
-  ms.sourcegitcommit: d40bff88f60d5ddb3d875f788cafdd0c40069f23
+  title: <span data-ttu-id="e2288-102">Szacowanie kosztów przy użyciu kalkulatora cen platformy Azure</span><span class="sxs-lookup"><span data-stu-id="e2288-102">Estimate costs with the Azure pricing calculator</span></span>
+  description: <span data-ttu-id="e2288-103">W tym rozdziale omówimy sposób szacowania kosztów za pomocą kalkulatora cen platformy Azure</span><span class="sxs-lookup"><span data-stu-id="e2288-103">In this unit, we'll discuss how to estimate costs with the Azure pricing calculator</span></span>
+  ms.openlocfilehash: 93d01958a958e008fac17214db8496b8f9dded03
+  ms.sourcegitcommit: 81cb0c300be030565fb0b7c5b57413c4a2aa5410
   ms.translationtype: HT
   ms.contentlocale: pl-PL
-  ms.lasthandoff: 08/22/2018
-  ms.locfileid: "42614519"
-durationInMinutes: 15
+  ms.lasthandoff: 08/28/2018
+  ms.locfileid: "43141740"
+durationInMinutes: 20
 content: >
   [!include[](includes/2-estimate-costs-with-the-azure-pricing-calculator.md)]
 quiz:
-  title: <span data-ttu-id="c993f-104">Szacowanie kosztów przy użyciu kalkulatora cen platformy Azure</span><span class="sxs-lookup"><span data-stu-id="c993f-104">Estimate costs with the Azure pricing calculator</span></span>
+  title: <span data-ttu-id="e2288-104">Szacowanie kosztów przy użyciu kalkulatora cen platformy Azure</span><span class="sxs-lookup"><span data-stu-id="e2288-104">Estimate costs with the Azure pricing calculator</span></span>
   questions:
-  - content: <span data-ttu-id="c993f-105">Na której karcie kalkulatora cen platformy Azure będzie można sformułować szacowanie?</span><span class="sxs-lookup"><span data-stu-id="c993f-105">In which tab of the Azure pricing calculator will you formulate your estimate?</span></span>
+  - content: <span data-ttu-id="e2288-105">Na której karcie kalkulatora cen platformy Azure będzie można sformułować szacowanie?</span><span class="sxs-lookup"><span data-stu-id="e2288-105">In which tab of the Azure pricing calculator will you formulate your estimate?</span></span>
     choices:
-    - content: <span data-ttu-id="c993f-106">Szacowanie</span><span class="sxs-lookup"><span data-stu-id="c993f-106">Estimate</span></span>
+    - content: <span data-ttu-id="e2288-106">Szacowanie</span><span class="sxs-lookup"><span data-stu-id="e2288-106">Estimate</span></span>
       isCorrect: false
-      incorrectExplanation: <span data-ttu-id="c993f-107">Ta karta zawiera wszystkie zapisane wcześniej oszacowania.</span><span class="sxs-lookup"><span data-stu-id="c993f-107">This tab has all of your previously saved estimates.</span></span>
-    - content: <span data-ttu-id="c993f-108">Produkty</span><span class="sxs-lookup"><span data-stu-id="c993f-108">Products</span></span>
+      incorrectExplanation: <span data-ttu-id="e2288-107">Ta karta zawiera wszystkie zapisane wcześniej oszacowania.</span><span class="sxs-lookup"><span data-stu-id="e2288-107">This tab has all of your previously saved estimates.</span></span>
+    - content: <span data-ttu-id="e2288-108">Produkty</span><span class="sxs-lookup"><span data-stu-id="e2288-108">Products</span></span>
       isCorrect: true
-      correctExplanation: <span data-ttu-id="c993f-109">Ta karta zawiera listę wszystkich usług platformy Azure. Umożliwia również dodawanie i usuwanie usług w celu sformułowania szacowania.</span><span class="sxs-lookup"><span data-stu-id="c993f-109">This tab has all the Azure services listed and is where you'll add or remove services to formulate your estimate.</span></span>
-  - content: <span data-ttu-id="c993f-110">Szacowanie można udostępnić za pośrednictwem arkusza kalkulacyjnego programu Excel lub adresu URL.</span><span class="sxs-lookup"><span data-stu-id="c993f-110">You can share your estimate through an Excel spreadsheet or through a URL.</span></span>
+      correctExplanation: <span data-ttu-id="e2288-109">Ta karta zawiera listę wszystkich usług platformy Azure. Umożliwia również dodawanie i usuwanie usług w celu sformułowania szacowania.</span><span class="sxs-lookup"><span data-stu-id="e2288-109">This tab has all the Azure services listed and is where you'll add or remove services to formulate your estimate.</span></span>
+  - content: <span data-ttu-id="e2288-110">Szacowanie można udostępnić za pośrednictwem arkusza kalkulacyjnego programu Excel lub adresu URL.</span><span class="sxs-lookup"><span data-stu-id="e2288-110">You can share your estimate through an Excel spreadsheet or through a URL.</span></span>
     choices:
-    - content: <span data-ttu-id="c993f-111">True</span><span class="sxs-lookup"><span data-stu-id="c993f-111">True</span></span>
+    - content: <span data-ttu-id="e2288-111">True</span><span class="sxs-lookup"><span data-stu-id="e2288-111">True</span></span>
       isCorrect: true
-      correctExplanation: <span data-ttu-id="c993f-112">Kliknięcie pozycji <b>Eksportuj</b> w dolnej części szacowania spowoduje wyeksportowanie arkusza kalkulacyjnego programu Excel, który można udostępnić. Można również kliknąć pozycję <b>Udostępnij</b>, aby uzyskać link z adresem URL do udostępnienia zespołowi.</span><span class="sxs-lookup"><span data-stu-id="c993f-112">Clicking <b>Export</b> at the bottom of the estimate will export an Excel spreadsheet that you can share, or you can click <b>Share</b> to get a URL link that you can share with your team.</span></span>
-    - content: <span data-ttu-id="c993f-113">False</span><span class="sxs-lookup"><span data-stu-id="c993f-113">False</span></span>
+      correctExplanation: <span data-ttu-id="e2288-112">Kliknięcie pozycji <b>Eksportuj</b> w dolnej części szacowania spowoduje wyeksportowanie arkusza kalkulacyjnego programu Excel, który można udostępnić. Można również kliknąć pozycję <b>Udostępnij</b>, aby uzyskać link z adresem URL do udostępnienia zespołowi.</span><span class="sxs-lookup"><span data-stu-id="e2288-112">Clicking <b>Export</b> at the bottom of the estimate will export an Excel spreadsheet that you can share, or you can click <b>Share</b> to get a URL link that you can share with your team.</span></span>
+    - content: <span data-ttu-id="e2288-113">False</span><span class="sxs-lookup"><span data-stu-id="e2288-113">False</span></span>
       isCorrect: false
-      incorrectExplanation: <span data-ttu-id="c993f-114">Kliknięcie pozycji <b>Eksportuj</b> w dolnej części szacowania spowoduje wyeksportowanie arkusza kalkulacyjnego programu Excel, który można udostępnić. Można również kliknąć pozycję <b>Udostępnij</b>, aby uzyskać link z adresem URL do udostępnienia zespołowi.</span><span class="sxs-lookup"><span data-stu-id="c993f-114">Clicking <b>Export</b> at the bottom of the estimate will export an Excel spreadsheet that you can share, or you can click <b>Share</b> to get a URL link that you can share with your team.</span></span>
+      incorrectExplanation: <span data-ttu-id="e2288-114">Kliknięcie pozycji <b>Eksportuj</b> w dolnej części szacowania spowoduje wyeksportowanie arkusza kalkulacyjnego programu Excel, który można udostępnić. Można również kliknąć pozycję <b>Udostępnij</b>, aby uzyskać link z adresem URL do udostępnienia zespołowi.</span><span class="sxs-lookup"><span data-stu-id="e2288-114">Clicking <b>Export</b> at the bottom of the estimate will export an Excel spreadsheet that you can share, or you can click <b>Share</b> to get a URL link that you can share with your team.</span></span>
